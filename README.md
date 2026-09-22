@@ -59,7 +59,13 @@ Add this repository as a plugin marketplace, then install packs individually:
 
 ## License
 
-**Pending.** Licensing has not been decided. See `LICENSE and COMMERCIAL-LICENSE.md` — do not commercially redistribute until real license text ships.
+MIT — see `LICENSE`. You may use this library commercially under the MIT
+License; no additional payment is required for anything in this repository.
+
+FullStackAssets offers optional paid commercial arrangements (priority
+support, warranty/indemnification, proprietary Pro packs) — see
+`COMMERCIAL-LICENSE.md`. These are separate offerings and are not required
+to use this repository.
 
 ## Provenance
 

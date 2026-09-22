@@ -1,16 +1,24 @@
-# Commercial License — Agentic AI Role Library
+# Commercial Offering — Agentic AI Role Library
 
-This library is **dual-licensed**.
+Everything in this repository is released under the MIT License (`LICENSE`).
+**No payment is required** to use, modify, distribute, sublicense, or sell
+anything in this repository, including for commercial purposes — those rights
+are granted by the MIT License itself, and nothing in this file takes them
+away.
 
-- **Open-source use** is covered by the MIT License (`LICENSE`).
-- **Commercial use** requires a paid commercial license from FullStackAssets.
+FullStackAssets additionally offers optional paid commercial arrangements
+covering value *beyond* what the MIT License grants:
 
-Commercial use includes, but is not limited to: bundling any part of the
-library into a paid product or service, deploying it inside a company beyond
-evaluation, reselling or redistributing it as part of a commercial offering,
-or using it to deliver paid client work.
+- **Priority support & SLA** — a direct support channel with response-time
+  commitments for teams running these plugins in production.
+- **Warranty & indemnification** — available under a separate written
+  agreement for enterprise procurement requirements.
+- **Proprietary Pro packs** — enhanced or expanded skill packs that are not
+  published in this repository.
 
-Commercial license terms and pricing are set by FullStackAssets.
-To purchase a commercial license, contact us via this repository.
+These are separate offerings with their own terms. They are **not required**
+to use anything in this repository. Terms and pricing are set by
+FullStackAssets — contact us via this repository to discuss.
 
-If you are unsure whether your use is commercial, assume it is and get in touch.
+This file is descriptive only. It does not modify, restrict, or add
+conditions to the MIT License.

@@ -1,0 +1,6 @@
+{
+  "name": "role-library-router",
+  "description": "Natural-language router for the Agentic AI Role Library: turns plain-English tasks into ranked role+capability assemblies.",
+  "version": "0.1.0",
+  "author": "FullStackAssets"
+}

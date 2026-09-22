@@ -1,0 +1,6 @@
+{
+  "name": "role-library-integrations",
+  "description": "20 integration definitions (INT-001..INT-020): named data-source and system profiles referenced by role skills.",
+  "version": "0.1.0",
+  "author": "FullStackAssets"
+}

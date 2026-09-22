@@ -1,0 +1,27 @@
+{
+  "packs": {
+    "role-library-built-environment": 6,
+    "role-library-music-audio": 14,
+    "role-library-knowledge-rights": 3,
+    "role-library-content-marketing": 9,
+    "role-library-control-canon": 6,
+    "role-library-release-distribution": 8,
+    "role-library-visual-video": 10,
+    "role-library-data-analytics": 8,
+    "role-library-engineering": 9,
+    "role-library-finance-risk": 8,
+    "role-library-governance": 7,
+    "role-library-healthcare-public": 6,
+    "role-library-operations": 8,
+    "role-library-sector-overlays": 8,
+    "role-library-people-learning": 6,
+    "role-library-product-design": 7,
+    "role-library-revenue-customer": 8,
+    "role-library-capabilities": 45,
+    "role-library-integrations": 20,
+    "role-library-router": 1
+  },
+  "total_skills": 196,
+  "router_skill": 1,
+  "library_entries": 196
+}

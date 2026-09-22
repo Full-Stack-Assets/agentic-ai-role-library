@@ -1,0 +1,6 @@
+{
+  "name": "role-library-release-distribution",
+  "description": "8 bounded agent roles for Release and distribution (CMR family).",
+  "version": "0.1.0",
+  "author": "FullStackAssets"
+}

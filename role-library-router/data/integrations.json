@@ -1,0 +1,142 @@
+[
+  {
+    "integration_id": "INT-001",
+    "name": "Knowledge repository",
+    "allowed_activities": "Retrieve approved policies, canon, procedures, product docs, and playbooks.",
+    "default_scope": "Read approved collections; propose versioned drafts.",
+    "prohibited": "Publishing/replacing source-of-truth content."
+  },
+  {
+    "integration_id": "INT-002",
+    "name": "Document management & e-signature",
+    "allowed_activities": "Store controlled documents, route review, manage redlines, and retain evidence.",
+    "default_scope": "Read/write draft workspace; create review task.",
+    "prohibited": "Signing, sending final documents, changing retention/legal hold."
+  },
+  {
+    "integration_id": "INT-003",
+    "name": "Project/workflow management",
+    "allowed_activities": "Create bounded tasks, dependencies, statuses, and reminders.",
+    "default_scope": "Create/update role-owned tasks; read dependencies.",
+    "prohibited": "Changing portfolio scope, budgets, deadlines, or approvals without owner."
+  },
+  {
+    "integration_id": "INT-004",
+    "name": "Calendar & scheduling",
+    "allowed_activities": "Retrieve availability, draft schedules, send internal review requests.",
+    "default_scope": "Read availability; create draft/hold events if approved.",
+    "prohibited": "External invitations, meeting changes involving executives/customers without approval."
+  },
+  {
+    "integration_id": "INT-005",
+    "name": "Asset management / object storage",
+    "allowed_activities": "Read/write versioned artifacts and metadata; compute checksums.",
+    "default_scope": "Scoped project folders; append-only provenance.",
+    "prohibited": "Deleting originals, changing master labels, public sharing."
+  },
+  {
+    "integration_id": "INT-006",
+    "name": "DAM / media production suite",
+    "allowed_activities": "Retrieve/write creative candidates, reference packs, renders, and derivatives.",
+    "default_scope": "Create labeled drafts in sandbox/project collection.",
+    "prohibited": "Promoting to canon/final, external publishing, rights-status change."
+  },
+  {
+    "integration_id": "INT-007",
+    "name": "Code repository & CI",
+    "allowed_activities": "Read repositories, open draft changes, execute tests in isolated environments.",
+    "default_scope": "Branch-level write; CI sandbox; PR creation.",
+    "prohibited": "Merge to protected branch, production secret access, production deploy."
+  },
+  {
+    "integration_id": "INT-008",
+    "name": "Cloud/infrastructure & observability",
+    "allowed_activities": "Read approved logs/metrics/configs and create nonproduction diagnostic changes.",
+    "default_scope": "Read-only by default; sandbox/test scopes.",
+    "prohibited": "Production changes, access-policy changes, destructive actions, public status updates."
+  },
+  {
+    "integration_id": "INT-009",
+    "name": "Data warehouse / BI",
+    "allowed_activities": "Query approved views, publish draft analyses, refresh non-sensitive sandbox assets.",
+    "default_scope": "Read-only curated views; workspace-level draft write.",
+    "prohibited": "Data deletion, source-table writes, broad sharing, sensitive export."
+  },
+  {
+    "integration_id": "INT-010",
+    "name": "CRM / customer platform",
+    "allowed_activities": "Retrieve account context, create internal notes, draft communications/tasks.",
+    "default_scope": "Read selected accounts; internal-note/task write.",
+    "prohibited": "External email/send, changes to customer records/terms, exports of sensitive data."
+  },
+  {
+    "integration_id": "INT-011",
+    "name": "Support/case-management system",
+    "allowed_activities": "Read assigned cases, draft replies, classify/tag, create escalation tasks.",
+    "default_scope": "Agent-specific queue access; draft-only external responses.",
+    "prohibited": "Account action, refund, benefit/eligibility decision, sensitive external communication."
+  },
+  {
+    "integration_id": "INT-012",
+    "name": "Marketing automation & CMS",
+    "allowed_activities": "Draft content, build non-live campaigns, validate assets, retrieve reporting.",
+    "default_scope": "Staging/draft workspace and read analytics.",
+    "prohibited": "Publishing, emailing, posting, changing audiences, increasing spend."
+  },
+  {
+    "integration_id": "INT-013",
+    "name": "Social/community platform",
+    "allowed_activities": "Retrieve approved metrics/inbox messages, create drafts, tag/rout cases.",
+    "default_scope": "Read-only and draft queue.",
+    "prohibited": "Posts, DMs, replies to sensitive/high-reach accounts, moderation sanctions."
+  },
+  {
+    "integration_id": "INT-014",
+    "name": "ERP/accounting/billing",
+    "allowed_activities": "Retrieve approved reports, prepare reconciliations, create internal review items.",
+    "default_scope": "Read-only; draft journal/support workspaces where available.",
+    "prohibited": "Payments, journal posting, tax filing, refund, credit, vendor/customer changes."
+  },
+  {
+    "integration_id": "INT-015",
+    "name": "Contract/CLM/rights system",
+    "allowed_activities": "Retrieve agreements, create metadata, track dates/obligations/rights evidence.",
+    "default_scope": "Read terms and write draft metadata/alerts.",
+    "prohibited": "Signing, negotiation, granting licenses, legal interpretation, registration/submission."
+  },
+  {
+    "integration_id": "INT-016",
+    "name": "Identity, IAM, and HRIS",
+    "allowed_activities": "Retrieve limited directory/role/authority information for approved workflows.",
+    "default_scope": "Read minimum needed attributes, generally de-identified where possible.",
+    "prohibited": "Account creation/termination, permission change, employment action, compensation changes."
+  },
+  {
+    "integration_id": "INT-017",
+    "name": "EHR, LIMS, public case-management",
+    "allowed_activities": "Retrieve the minimum authorized record fields for administrative support and draft documentation.",
+    "default_scope": "Strict read-only/draft-only, patient/case scoped.",
+    "prohibited": "Clinical orders, diagnoses, eligibility/outcome decisions, disclosure, final signatures."
+  },
+  {
+    "integration_id": "INT-018",
+    "name": "Maps, GIS, field service, EAM/CMMS",
+    "allowed_activities": "View locations/assets/work orders and create draft plans/checklists.",
+    "default_scope": "Read assigned locations; draft work orders.",
+    "prohibited": "Dispatch, work authorization, safety closure, engineering sign-off."
+  },
+  {
+    "integration_id": "INT-019",
+    "name": "External research/search services",
+    "allowed_activities": "Retrieve publicly available or licensed information with source metadata.",
+    "default_scope": "Search/read; download only to governed workspace.",
+    "prohibited": "Credential sharing, automated scraping outside terms, external account actions."
+  },
+  {
+    "integration_id": "INT-020",
+    "name": "Communication platforms",
+    "allowed_activities": "Draft messages, create internal threads, route reviews, summarize approved meetings.",
+    "default_scope": "Internal draft/notification scope.",
+    "prohibited": "Send external messages, invitations, high-impact announcements, sensitive disclosure."
+  }
+]

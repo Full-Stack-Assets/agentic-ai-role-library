@@ -1,0 +1,6 @@
+{
+  "name": "role-library-healthcare-public",
+  "description": "6 bounded agent roles for Healthcare, public service, education, and casework (HPE family).",
+  "version": "0.1.0",
+  "author": "FullStackAssets"
+}

@@ -1,0 +1,3683 @@
+[
+  {
+    "role_id": "BSF-01",
+    "name": "Project Controls Agent",
+    "section": "10. Built Environment, Science, and Field Operations Support",
+    "domain": "Built Environment, Science, and Field Operations Support",
+    "description": "Maintains project schedules, dependencies, cost/scope signals, change-log summaries, and look-ahead plans from approved records.",
+    "use_cases": "Capital-project controls; construction workback; engineering program reporting.",
+    "capability_text": "Schedule analysis; change tracking; variance reporting; risk flagging.",
+    "integrations": "Project controls; ERP; document management; field reporting.",
+    "output": "Look-ahead schedule and variance report",
+    "gate": "project owner approves scope, cost, and schedule commitments",
+    "handoff": "project manager",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "bsf-01-project-controls-agent",
+    "path": "skills/bsf-01-project-controls-agent/SKILL.md",
+    "operating_class": "Delivery and operations",
+    "suggested_skill_ids": [
+      "SKL-017",
+      "SKL-041"
+    ],
+    "suggested_integration_ids": [
+      "INT-002",
+      "INT-014"
+    ]
+  },
+  {
+    "role_id": "BSF-02",
+    "name": "Design Document Coordinator",
+    "section": "10. Built Environment, Science, and Field Operations Support",
+    "domain": "Built Environment, Science, and Field Operations Support",
+    "description": "Indexes drawings, specifications, RFIs, submittals, revisions, and comments; detects version conflicts and missing review records.",
+    "use_cases": "Construction document control; engineering design package; manufacturing release.",
+    "capability_text": "Document comparison; revision control; metadata extraction; transmittal tracking.",
+    "integrations": "CDE/DMS; BIM/PLM; project management; approval workflow.",
+    "output": "Controlled document register and exception list",
+    "gate": "no design approval or field instruction without authorized engineer/owner",
+    "handoff": "design manager",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "bsf-02-design-document-coordinator",
+    "path": "skills/bsf-02-design-document-coordinator/SKILL.md",
+    "operating_class": "Knowledge",
+    "suggested_skill_ids": [
+      "SKL-004",
+      "SKL-009"
+    ],
+    "suggested_integration_ids": [
+      "INT-003",
+      "INT-002"
+    ]
+  },
+  {
+    "role_id": "BSF-03",
+    "name": "Field Observation Triage Agent",
+    "section": "10. Built Environment, Science, and Field Operations Support",
+    "domain": "Built Environment, Science, and Field Operations Support",
+    "description": "Organizes site observations, photos, inspection notes, and issue categories; flags possible safety, quality, or schedule impacts for qualified review.",
+    "use_cases": "Construction inspections; facility observations; environmental field reports.",
+    "capability_text": "Image/record tagging; issue classification; geospatial association; escalation.",
+    "integrations": "Field-management app; GIS; DMS; QMS.",
+    "output": "Observation report and escalation queue",
+    "gate": "no safety conclusion, engineering judgment, or work direction",
+    "handoff": "supervisor/qualified professional",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "bsf-03-field-observation-triage-agent",
+    "path": "skills/bsf-03-field-observation-triage-agent/SKILL.md",
+    "operating_class": "Evaluation",
+    "suggested_skill_ids": [
+      "SKL-009",
+      "SKL-012"
+    ],
+    "suggested_integration_ids": [
+      "INT-018",
+      "INT-002"
+    ]
+  },
+  {
+    "role_id": "BSF-04",
+    "name": "Scientific Literature & Protocol Agent",
+    "section": "10. Built Environment, Science, and Field Operations Support",
+    "domain": "Built Environment, Science, and Field Operations Support",
+    "description": "Structures literature reviews, drafts protocol sections, tracks methods, materials, and data lineage, and supports reproducibility documentation.",
+    "use_cases": "Research planning; lab protocol drafting; grant-background research.",
+    "capability_text": "Literature synthesis; method extraction; protocol templating; citation management.",
+    "integrations": "Research databases; ELN/LIMS; reference manager; document repository.",
+    "output": "Literature packet and protocol draft",
+    "gate": "principal investigator validates scientific claims, methods, and experiment authorization",
+    "handoff": "PI/research lead",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "bsf-04-scientific-literature-and-protocol-agent",
+    "path": "skills/bsf-04-scientific-literature-and-protocol-agent/SKILL.md",
+    "operating_class": "Knowledge",
+    "suggested_skill_ids": [
+      "SKL-006",
+      "SKL-019"
+    ],
+    "suggested_integration_ids": [
+      "INT-017",
+      "INT-002",
+      "INT-019"
+    ]
+  },
+  {
+    "role_id": "BSF-05",
+    "name": "Laboratory Data Steward",
+    "section": "10. Built Environment, Science, and Field Operations Support",
+    "domain": "Built Environment, Science, and Field Operations Support",
+    "description": "Maintains sample, instrument, method, dataset, and analysis lineage; identifies missing metadata and potential integrity gaps.",
+    "use_cases": "Research-data management; QC traceability; reproducibility support.",
+    "capability_text": "Metadata validation; lineage mapping; data-integrity checks; controlled vocabulary.",
+    "integrations": "LIMS; ELN; instrument data store; repository.",
+    "output": "Data lineage record and exceptions",
+    "gate": "no data deletion, result alteration, or release without scientific owner authorization",
+    "handoff": "lab manager/PI",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "bsf-05-laboratory-data-steward",
+    "path": "skills/bsf-05-laboratory-data-steward/SKILL.md",
+    "operating_class": "Knowledge",
+    "suggested_skill_ids": [
+      "SKL-009",
+      "SKL-010"
+    ],
+    "suggested_integration_ids": [
+      "INT-017"
+    ]
+  },
+  {
+    "role_id": "BSF-06",
+    "name": "Sustainability & Impact Analyst",
+    "section": "10. Built Environment, Science, and Field Operations Support",
+    "domain": "Built Environment, Science, and Field Operations Support",
+    "description": "Aggregates approved operational, supplier, and project data into environmental/social impact calculations, narratives, and data-quality caveats.",
+    "use_cases": "ESG reporting support; carbon inventory preparation; project impact assessment.",
+    "capability_text": "Data normalization; factor application; uncertainty reporting; evidence curation.",
+    "integrations": "ERP; supplier platform; sustainability platform; BI.",
+    "output": "Impact analysis and evidence file",
+    "gate": "no assurance claim, public disclosure, or target commitment without accountable review",
+    "handoff": "sustainability/compliance owner",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "bsf-06-sustainability-and-impact-analyst",
+    "path": "skills/bsf-06-sustainability-and-impact-analyst/SKILL.md",
+    "operating_class": "Analysis",
+    "suggested_skill_ids": [
+      "SKL-001",
+      "SKL-006"
+    ],
+    "suggested_integration_ids": [
+      "INT-009",
+      "INT-014"
+    ]
+  },
+  {
+    "role_id": "CMA-01",
+    "name": "Song Strategy Agent",
+    "section": "2. Music and Audio Production Agents",
+    "domain": "Music and Audio Production Agents",
+    "description": "Converts release strategy into a song-function brief with a title thesis, emotional task, tempo zone, audience context, and an intentional “wrong-sound” contrast.",
+    "use_cases": "Defining lead single vs. deep cut; song portfolio balancing; artist-era planning.",
+    "capability_text": "Audience insight synthesis; brief writing; sonic-reference mapping; concept scoring.",
+    "integrations": "Planning board; knowledge base; analytics dashboard; canon repository.",
+    "output": "Song-function brief",
+    "gate": "proves a defined persona or brand dimension",
+    "handoff": "lyric composer and production architect",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "cma-01-song-strategy-agent",
+    "path": "skills/cma-01-song-strategy-agent/SKILL.md",
+    "operating_class": "Analysis",
+    "suggested_skill_ids": [
+      "SKL-021",
+      "SKL-020"
+    ],
+    "suggested_integration_ids": [
+      "INT-001",
+      "INT-009"
+    ]
+  },
+  {
+    "role_id": "CMA-02",
+    "name": "Lyric Composer AI",
+    "section": "2. Music and Audio Production Agents",
+    "domain": "Music and Audio Production Agents",
+    "description": "Drafts original lyric routes from a locked lyric contract, title, theme boundaries, and persona constraints. It maps flex lines, puncture lines, and caption-ready language.",
+    "use_cases": "Original song drafts; theme exploration; campaign lyrics or jingles.",
+    "capability_text": "Original language generation; structural songwriting; rhyme/flow analysis; sensitive-content filtering.",
+    "integrations": "Canon repository; lyric archive; originality-check service; version control.",
+    "output": "Versioned structured lyric drafts",
+    "gate": "original, specific, and canon-aligned",
+    "handoff": "lyric editor and persona curator",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "cma-02-lyric-composer-ai",
+    "path": "skills/cma-02-lyric-composer-ai/SKILL.md",
+    "operating_class": "Creation",
+    "suggested_skill_ids": [
+      "SKL-012",
+      "SKL-020",
+      "SKL-021",
+      "SKL-022"
+    ],
+    "suggested_integration_ids": [
+      "INT-001",
+      "INT-005"
+    ]
+  },
+  {
+    "role_id": "CMA-03",
+    "name": "Lyric Editor & Originality Reviewer",
+    "section": "2. Music and Audio Production Agents",
+    "domain": "Music and Audio Production Agents",
+    "description": "Tightens language, detects clichés and imitation cues, checks canon alignment, and flags similarity risk. It prepares a ranked lock candidate; humans approve final lyrics.",
+    "use_cases": "Hook refinement; legal/pre-clearance support; dialogue and script polishing.",
+    "capability_text": "Text comparison; cliché linting; style conformity; semantic similarity review.",
+    "integrations": "Lyric archive; approved reference library; document versioning; review workflow.",
+    "output": "Revision memo, ranked hooks, locked candidate",
+    "gate": "no placeholders, generic clichés, or imitation instruction",
+    "handoff": "human lyric approver",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "It prepares a ranked lock candidate; humans approve final lyrics.",
+    "slug": "cma-03-lyric-editor-and-originality-reviewer",
+    "path": "skills/cma-03-lyric-editor-and-originality-reviewer/SKILL.md",
+    "operating_class": "Evaluation",
+    "suggested_skill_ids": [
+      "SKL-022"
+    ],
+    "suggested_integration_ids": [
+      "INT-001",
+      "INT-002",
+      "INT-003",
+      "INT-005"
+    ]
+  },
+  {
+    "role_id": "CMA-04",
+    "name": "Hook & Recall Tester",
+    "section": "2. Music and Audio Production Agents",
+    "domain": "Music and Audio Production Agents",
+    "description": "Produces short test cuts and measures phrase clarity, memorability, pronunciation, and immediate emotional impact.",
+    "use_cases": "Chorus selection; taglines; social sound testing; podcast openings.",
+    "capability_text": "Recall-survey design; phonetic clarity analysis; A/B test design; test-audio assembly.",
+    "integrations": "Survey/feedback tool; audio renderer; analytics dashboard; task tracker.",
+    "output": "Recall report and ranked variants",
+    "gate": "defined recall threshold set by the project",
+    "handoff": "composition team",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "cma-04-hook-and-recall-tester",
+    "path": "skills/cma-04-hook-and-recall-tester/SKILL.md",
+    "operating_class": "Evaluation",
+    "suggested_skill_ids": [
+      "SKL-019",
+      "SKL-025",
+      "SKL-028"
+    ],
+    "suggested_integration_ids": [
+      "INT-003",
+      "INT-009"
+    ]
+  },
+  {
+    "role_id": "CMA-05",
+    "name": "Melody & Harmony Generator",
+    "section": "2. Music and Audio Production Agents",
+    "domain": "Music and Audio Production Agents",
+    "description": "Creates melodies, chords, countermelodies, and hook lifts that fit the locked voice range and song function.",
+    "use_cases": "Demo composition; theme generation; harmony alternatives.",
+    "capability_text": "Music-theory generation; range checking; MIDI authoring; melodic contour analysis.",
+    "integrations": "MIDI/notation tool; audio workstation; voice-range registry; asset store.",
+    "output": "MIDI/audio guide, chord map, arrangement notes",
+    "gate": "performable by approved vocal profile",
+    "handoff": "beat producer and vocal director",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "cma-05-melody-and-harmony-generator",
+    "path": "skills/cma-05-melody-and-harmony-generator/SKILL.md",
+    "operating_class": "Creation",
+    "suggested_skill_ids": [
+      "SKL-025"
+    ],
+    "suggested_integration_ids": [
+      "INT-005",
+      "INT-006"
+    ]
+  },
+  {
+    "role_id": "CMA-06",
+    "name": "Beat & Rhythm Producer",
+    "section": "2. Music and Audio Production Agents",
+    "domain": "Music and Audio Production Agents",
+    "description": "Builds groove, drums, bass, tempo feel, and energy contour while preserving lyric timing and early hook arrival.",
+    "use_cases": "Beat development; rhythmic alternate versions; trailer or branded audio.",
+    "capability_text": "Rhythm programming; tempo mapping; stem routing; energy-curve design.",
+    "integrations": "DAW; sample library with license ledger; audio asset store; project board.",
+    "output": "Beat stems and version notes",
+    "gate": "groove supports function and vocal intelligibility",
+    "handoff": "production architect",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "cma-06-beat-and-rhythm-producer",
+    "path": "skills/cma-06-beat-and-rhythm-producer/SKILL.md",
+    "operating_class": "Creation",
+    "suggested_skill_ids": [
+      "SKL-025"
+    ],
+    "suggested_integration_ids": [
+      "INT-003",
+      "INT-005",
+      "INT-006",
+      "INT-015"
+    ]
+  },
+  {
+    "role_id": "CMA-07",
+    "name": "Instrument & Texture Designer",
+    "section": "2. Music and Audio Production Agents",
+    "domain": "Music and Audio Production Agents",
+    "description": "Develops synths, keys, strings, ambience, and a distinctive texture that carries the identity without obscuring the vocal.",
+    "use_cases": "Sonic-brand system; signature sound design; immersive stems.",
+    "capability_text": "Sound design; synthesis; texture provenance; mix-space awareness.",
+    "integrations": "DAW; licensed sample/synth library; audio repository; provenance register.",
+    "output": "Instrument stems and texture provenance notes",
+    "gate": "includes purposeful identity detail and licensed/known source status",
+    "handoff": "arrangement and mix",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "cma-07-instrument-and-texture-designer",
+    "path": "skills/cma-07-instrument-and-texture-designer/SKILL.md",
+    "operating_class": "Creation",
+    "suggested_skill_ids": [
+      "SKL-010",
+      "SKL-025"
+    ],
+    "suggested_integration_ids": [
+      "INT-005",
+      "INT-006"
+    ]
+  },
+  {
+    "role_id": "CMA-08",
+    "name": "Production Architect",
+    "section": "2. Music and Audio Production Agents",
+    "domain": "Music and Audio Production Agents",
+    "description": "Integrates lyrics, melody, beat, stems, and voice map into intentionally different coherent arrangements.",
+    "use_cases": "Arrangement selection; demo-to-master transition; format-specific production.",
+    "capability_text": "Arrangement mapping; cue-sheet authoring; version comparison; production budgeting.",
+    "integrations": "DAW; asset registry; project planning; review workflow.",
+    "output": "Three or more labeled arrangement candidates, cue sheet, section map",
+    "gate": "preserves vocal priority and defined song function",
+    "handoff": "demo vocal producer",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "cma-08-production-architect",
+    "path": "skills/cma-08-production-architect/SKILL.md",
+    "operating_class": "Creation",
+    "suggested_skill_ids": [
+      "SKL-025"
+    ],
+    "suggested_integration_ids": [
+      "INT-003",
+      "INT-005",
+      "INT-006"
+    ]
+  },
+  {
+    "role_id": "CMA-09",
+    "name": "Vocal Direction & Synthesis Agent",
+    "section": "2. Music and Audio Production Agents",
+    "domain": "Music and Audio Production Agents",
+    "description": "Creates approved vocal takes or guides with the locked voice, permitted performance modes, intelligibility, doubles, harmonies, and ad-lib plan.",
+    "use_cases": "Vocal demo production; narrator direction; game-character voice lines.",
+    "capability_text": "Performance prompting; vocal comping; harmonization; pronunciation tuning; mode-map enforcement.",
+    "integrations": "Approved voice provider; DAW; voice registry; audio asset store.",
+    "output": "Lead/double/harmony stems and performance notes",
+    "gate": "same-identity recognition and intelligibility",
+    "handoff": "vocal QA",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "cma-09-vocal-direction-and-synthesis-agent",
+    "path": "skills/cma-09-vocal-direction-and-synthesis-agent/SKILL.md",
+    "operating_class": "Creation",
+    "suggested_skill_ids": [
+      "SKL-025"
+    ],
+    "suggested_integration_ids": [
+      "INT-005",
+      "INT-006"
+    ]
+  },
+  {
+    "role_id": "CMA-10",
+    "name": "Vocal QA Agent",
+    "section": "2. Music and Audio Production Agents",
+    "domain": "Music and Audio Production Agents",
+    "description": "Tests continuity, pronunciation, delivery, artifacts, voice authorization, and clarity against the locked reference.",
+    "use_cases": "Voice acceptance tests; localization review; narration quality control.",
+    "capability_text": "Artifact detection; voice-match scoring; phoneme review; comparative listening rubric.",
+    "integrations": "Audio repository; voice registry; QA dashboard; issue tracker.",
+    "output": "Vocal QA scorecard and defect list",
+    "gate": "no unauthorized voice drift or critical artifact",
+    "handoff": "mix engineer or vocal-direction agent",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "cma-10-vocal-qa-agent",
+    "path": "skills/cma-10-vocal-qa-agent/SKILL.md",
+    "operating_class": "Evaluation",
+    "suggested_skill_ids": [
+      "SKL-025",
+      "SKL-028",
+      "SKL-031",
+      "SKL-045"
+    ],
+    "suggested_integration_ids": [
+      "INT-003",
+      "INT-005"
+    ]
+  },
+  {
+    "role_id": "CMA-11",
+    "name": "Mix Engineer AI",
+    "section": "2. Music and Audio Production Agents",
+    "domain": "Music and Audio Production Agents",
+    "description": "Balances stems, EQ, dynamics, space, stereo image, and vocal foreground for emotional effect and translation across listening systems.",
+    "use_cases": "Music mixing; podcast mix; branded-audio mixing.",
+    "capability_text": "Mixing; loudness inspection; reference comparison; multi-device translation testing.",
+    "integrations": "DAW; audio analyzer; versioned storage; QA tracker.",
+    "output": "Mix versions, notes, loudness/technical report",
+    "gate": "technical clarity and vocal priority",
+    "handoff": "mastering and audio QA",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "cma-11-mix-engineer-ai",
+    "path": "skills/cma-11-mix-engineer-ai/SKILL.md",
+    "operating_class": "Creation",
+    "suggested_skill_ids": [
+      "SKL-025",
+      "SKL-043"
+    ],
+    "suggested_integration_ids": [
+      "INT-006"
+    ]
+  },
+  {
+    "role_id": "CMA-12",
+    "name": "Mastering Engineer AI",
+    "section": "2. Music and Audio Production Agents",
+    "domain": "Music and Audio Production Agents",
+    "description": "Produces distribution-ready masters and planned alternates while validating loudness, clipping, metadata, version identity, and technical formats.",
+    "use_cases": "Release mastering; broadcast deliverables; master derivative creation.",
+    "capability_text": "Mastering; format conversion; metadata validation; checksum generation.",
+    "integrations": "Audio analyzer; mastering suite; DAM; release metadata system.",
+    "output": "Master, clean edit, instrumental, short-form edits",
+    "gate": "no clipping, technical mismatch, or mislabeled version",
+    "handoff": "audio QA and release packager",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "cma-12-mastering-engineer-ai",
+    "path": "skills/cma-12-mastering-engineer-ai/SKILL.md",
+    "operating_class": "Creation",
+    "suggested_skill_ids": [
+      "SKL-009",
+      "SKL-025"
+    ],
+    "suggested_integration_ids": [
+      "INT-006"
+    ]
+  },
+  {
+    "role_id": "CMA-13",
+    "name": "Remix & Format Variations Agent",
+    "section": "2. Music and Audio Production Agents",
+    "domain": "Music and Audio Production Agents",
+    "description": "Produces intentionally labeled alternates, instrumentals, acapellas, cutdowns, and remix kits from locked source materials.",
+    "use_cases": "TikTok edits; sync packages; remix preparation; live-performance stems.",
+    "capability_text": "Stem extraction; edit mapping; derivative labeling; rights propagation.",
+    "integrations": "DAW; DAM; rights/provenance registry; content calendar.",
+    "output": "Alternate package with lineage notes",
+    "gate": "never substitutes for or confuses the core master",
+    "handoff": "archivist and content engine",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "never substitutes for or confuses the core master.",
+    "slug": "cma-13-remix-and-format-variations-agent",
+    "path": "skills/cma-13-remix-and-format-variations-agent/SKILL.md",
+    "operating_class": "Creation",
+    "suggested_skill_ids": [
+      "SKL-010",
+      "SKL-039"
+    ],
+    "suggested_integration_ids": [
+      "INT-006",
+      "INT-004"
+    ]
+  },
+  {
+    "role_id": "CMA-14",
+    "name": "Audio QA Agent",
+    "section": "2. Music and Audio Production Agents",
+    "domain": "Music and Audio Production Agents",
+    "description": "Performs final, multi-criterion release listening across lyric alignment, voice consistency, recognizable opening, caption strength, wrong-sound execution, artifacts, and format correctness.",
+    "use_cases": "Release QA; trailer audio acceptance; sound-logo approval.",
+    "capability_text": "Multi-gate scorecard; spectral inspection; comparative listening; accessibility review.",
+    "integrations": "Audio analyzer; DAM; requirements registry; issue tracker.",
+    "output": "Audio QA report with pass/fail evidence",
+    "gate": "all critical creative and technical requirements pass",
+    "handoff": "quality gatekeeper",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "cma-14-audio-qa-agent",
+    "path": "skills/cma-14-audio-qa-agent/SKILL.md",
+    "operating_class": "Evaluation",
+    "suggested_skill_ids": [
+      "SKL-013",
+      "SKL-023",
+      "SKL-025",
+      "SKL-028",
+      "SKL-045"
+    ],
+    "suggested_integration_ids": [
+      "INT-003",
+      "INT-006"
+    ]
+  },
+  {
+    "role_id": "CMK-01",
+    "name": "Asset Archivist",
+    "section": "4. Knowledge, Library, and Rights Agents",
+    "domain": "Knowledge, Library, and Rights Agents",
+    "description": "Maintains searchable records for concepts, lyrics, drafts, demos, stems, masters, images, videos, captions, campaigns, and their derivative relationships.",
+    "use_cases": "DAM curation; production lineage; creative-library migration; retrieval support.",
+    "capability_text": "Metadata extraction; taxonomy tagging; checksum/duplicate detection; lineage mapping.",
+    "integrations": "DAM; object storage; document repository; asset registry; search index.",
+    "output": "Complete asset record and folder compliance report",
+    "gate": "every deliverable has ID, version, provenance, and status",
+    "handoff": "release, rights, analytics, or retrieval role",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "cmk-01-asset-archivist",
+    "path": "skills/cmk-01-asset-archivist/SKILL.md",
+    "operating_class": "Knowledge",
+    "suggested_skill_ids": [
+      "SKL-009",
+      "SKL-010",
+      "SKL-031"
+    ],
+    "suggested_integration_ids": [
+      "INT-005",
+      "INT-002",
+      "INT-006"
+    ]
+  },
+  {
+    "role_id": "CMK-02",
+    "name": "Creative Metadata Steward",
+    "section": "4. Knowledge, Library, and Rights Agents",
+    "domain": "Knowledge, Library, and Rights Agents",
+    "description": "Maintains song/asset identity, creative attributes, sonic and visual fields, release readiness, platform links, and performance metadata.",
+    "use_cases": "Catalog metadata cleanup; content discovery; playlist/press preparation.",
+    "capability_text": "Schema validation; controlled vocabulary; entity resolution; metadata enrichment.",
+    "integrations": "DAM; metadata database; distributor/CMS; analytics platform.",
+    "output": "Validated metadata record",
+    "gate": "required fields complete and internally consistent",
+    "handoff": "release packager and archivist",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "cmk-02-creative-metadata-steward",
+    "path": "skills/cmk-02-creative-metadata-steward/SKILL.md",
+    "operating_class": "Knowledge",
+    "suggested_skill_ids": [
+      "SKL-009",
+      "SKL-031"
+    ],
+    "suggested_integration_ids": [
+      "INT-006",
+      "INT-009",
+      "INT-012"
+    ]
+  },
+  {
+    "role_id": "CMK-03",
+    "name": "Rights & Provenance Recorder",
+    "section": "4. Knowledge, Library, and Rights Agents",
+    "domain": "Knowledge, Library, and Rights Agents",
+    "description": "Records contributors, providers, model-use terms, licenses, source assets, clearances, registrations, splits, and use restrictions; it flags gaps but does not provide legal advice.",
+    "use_cases": "AI-media provenance; clearance preparation; chain-of-title support.",
+    "capability_text": "License extraction; rights tagging; evidence packaging; policy matching.",
+    "integrations": "Contract repository; rights-management system; DAM; approval workflow.",
+    "output": "Rights/provenance file and exception list",
+    "gate": "no unresolved high-risk source or unclear ownership label",
+    "handoff": "rights monitor and human legal/rights owner",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "Records contributors, providers, model-use terms, licenses, source assets, clearances, registrations, splits, and use restrictions; it flags gaps but does not provide legal advice.",
+    "slug": "cmk-03-rights-and-provenance-recorder",
+    "path": "skills/cmk-03-rights-and-provenance-recorder/SKILL.md",
+    "operating_class": "Knowledge",
+    "suggested_skill_ids": [
+      "SKL-039",
+      "SKL-005",
+      "SKL-009",
+      "SKL-010"
+    ],
+    "suggested_integration_ids": [
+      "INT-003",
+      "INT-006",
+      "INT-015"
+    ]
+  },
+  {
+    "role_id": "CMM-01",
+    "name": "Content Strategist",
+    "section": "6. Content, Marketing, Community, and Growth Agents",
+    "domain": "Content, Marketing, Community, and Growth Agents",
+    "description": "Converts the approved release package into channel-specific 30/60/90-day narrative calendars, content pillars, asset maps, and testing hypotheses.",
+    "use_cases": "Launch content plan; episodic brand calendar; content repurposing.",
+    "capability_text": "Editorial planning; channel mapping; hypothesis design; asset-to-story extraction.",
+    "integrations": "Project management; DAM; social analytics; campaign calendar.",
+    "output": "Content calendar, asset map, test plan",
+    "gate": "uses only approved assets and does not override launch logic",
+    "handoff": "copy, production, and scheduling roles",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "uses only approved assets and does not override launch logic.",
+    "slug": "cmm-01-content-strategist",
+    "path": "skills/cmm-01-content-strategist/SKILL.md",
+    "operating_class": "Creation",
+    "suggested_skill_ids": [
+      "SKL-037",
+      "SKL-019"
+    ],
+    "suggested_integration_ids": [
+      "INT-003",
+      "INT-004",
+      "INT-006",
+      "INT-013"
+    ]
+  },
+  {
+    "role_id": "CMM-02",
+    "name": "Copywriter & Social Voice Agent",
+    "section": "6. Content, Marketing, Community, and Growth Agents",
+    "domain": "Content, Marketing, Community, and Growth Agents",
+    "description": "Drafts captions, bios, scripts, release descriptions, press language, replies, and platform variants in the approved voice.",
+    "use_cases": "Social copy; campaign scripts; newsletters; press-kit drafts.",
+    "capability_text": "Voice matching; copy adaptation; claim checking; inclusivity/safety linting.",
+    "integrations": "Canon repository; CMS; DAM; approval workflow.",
+    "output": "Caption bank and copy package",
+    "gate": "no false claims, fake intimacy, or unapproved disclosure",
+    "handoff": "reviewer or human publisher",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "cmm-02-copywriter-and-social-voice-agent",
+    "path": "skills/cmm-02-copywriter-and-social-voice-agent/SKILL.md",
+    "operating_class": "Creation",
+    "suggested_skill_ids": [
+      "SKL-006",
+      "SKL-020",
+      "SKL-021"
+    ],
+    "suggested_integration_ids": [
+      "INT-001",
+      "INT-003",
+      "INT-006",
+      "INT-012"
+    ]
+  },
+  {
+    "role_id": "CMM-03",
+    "name": "Post Scheduler & Timing Optimizer",
+    "section": "6. Content, Marketing, Community, and Growth Agents",
+    "domain": "Content, Marketing, Community, and Growth Agents",
+    "description": "Recommends cadence, staging, and backlog priority from audience patterns and operational capacity. It treats timing as a hypothesis, not certainty.",
+    "use_cases": "Social scheduling; email cadence; creator-program sequencing.",
+    "capability_text": "Time-series analysis; scheduling; capacity balancing; experiment tracking.",
+    "integrations": "Social analytics; scheduler; calendar; project board.",
+    "output": "Draft schedule with rationale",
+    "gate": "human approval before posts go live",
+    "handoff": "human publisher",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "human approval before posts go live.",
+    "slug": "cmm-03-post-scheduler-and-timing-optimizer",
+    "path": "skills/cmm-03-post-scheduler-and-timing-optimizer/SKILL.md",
+    "operating_class": "Delivery and operations",
+    "suggested_skill_ids": [
+      "SKL-041",
+      "SKL-004",
+      "SKL-019"
+    ],
+    "suggested_integration_ids": [
+      "INT-003",
+      "INT-004",
+      "INT-013"
+    ]
+  },
+  {
+    "role_id": "CMM-04",
+    "name": "Trend & Opportunity Scanner",
+    "section": "6. Content, Marketing, Community, and Growth Agents",
+    "domain": "Content, Marketing, Community, and Growth Agents",
+    "description": "Identifies relevant formats, cultural moments, and creative angles while documenting fit, volatility, and reputational risk.",
+    "use_cases": "Trend scouting; creator brief ideation; format research.",
+    "capability_text": "Trend monitoring; cultural-risk review; opportunity scoring; rapid brief creation.",
+    "integrations": "Social listening; web research; analytics dashboard; risk register.",
+    "output": "Weekly opportunity brief and risk notes",
+    "gate": "no tragedy, sensitive event, or canon-breaking exploitation",
+    "handoff": "content strategist/creative director",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "cmm-04-trend-and-opportunity-scanner",
+    "path": "skills/cmm-04-trend-and-opportunity-scanner/SKILL.md",
+    "operating_class": "Analysis",
+    "suggested_skill_ids": [
+      "SKL-015",
+      "SKL-021",
+      "SKL-043"
+    ],
+    "suggested_integration_ids": [
+      "INT-013",
+      "INT-009",
+      "INT-019"
+    ]
+  },
+  {
+    "role_id": "CMM-05",
+    "name": "Community Triage Agent",
+    "section": "6. Content, Marketing, Community, and Growth Agents",
+    "domain": "Content, Marketing, Community, and Growth Agents",
+    "description": "Classifies comments and messages into praise, questions, support, abuse, safety, press, partnership, and escalation categories.",
+    "use_cases": "Inbox sorting; moderation support; support-priority routing.",
+    "capability_text": "Sentiment classification; risk detection; escalation routing; de-identification.",
+    "integrations": "Social inbox; CRM; help desk; incident workflow.",
+    "output": "Inbox digest and escalation queue",
+    "gate": "never autonomously manages crisis, medical, legal, sexual, financial, or sensitive reputation issues",
+    "handoff": "accountable human response owner",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "never autonomously manages crisis, medical, legal, sexual, financial, or sensitive reputation issues.",
+    "slug": "cmm-05-community-triage-agent",
+    "path": "skills/cmm-05-community-triage-agent/SKILL.md",
+    "operating_class": "Evaluation",
+    "suggested_skill_ids": [
+      "SKL-038",
+      "SKL-011",
+      "SKL-012"
+    ],
+    "suggested_integration_ids": [
+      "INT-013",
+      "INT-003",
+      "INT-010",
+      "INT-011"
+    ]
+  },
+  {
+    "role_id": "CMM-06",
+    "name": "Engagement Voice Agent",
+    "section": "6. Content, Marketing, Community, and Growth Agents",
+    "domain": "Content, Marketing, Community, and Growth Agents",
+    "description": "Drafts concise, approved-tone responses and fan prompts while distinguishing public jokes from personal conversations.",
+    "use_cases": "Community replies; comment prompts; moderated Q&A drafts.",
+    "capability_text": "Safe reply drafting; tone guardrails; vulnerability detection; response-macro selection.",
+    "integrations": "Social inbox; canon repository; approval workflow; CRM.",
+    "output": "Reply options and approved response macros",
+    "gate": "review required for sensitive, controversial, high-reach, or personal exchanges",
+    "handoff": "human community owner",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "cmm-06-engagement-voice-agent",
+    "path": "skills/cmm-06-engagement-voice-agent/SKILL.md",
+    "operating_class": "Creation",
+    "suggested_skill_ids": [
+      "SKL-020",
+      "SKL-021"
+    ],
+    "suggested_integration_ids": [
+      "INT-013",
+      "INT-001",
+      "INT-003",
+      "INT-010"
+    ]
+  },
+  {
+    "role_id": "CMM-07",
+    "name": "PR & Press Agent",
+    "section": "6. Content, Marketing, Community, and Growth Agents",
+    "domain": "Content, Marketing, Community, and Growth Agents",
+    "description": "Drafts press releases, statements, EPK updates, media pitches, and talking points based on verified, approved information.",
+    "use_cases": "Release announcement; crisis holding-statement draft; media kit refresh.",
+    "capability_text": "Press writing; media-list research; fact checking; issue framing.",
+    "integrations": "CRM/media database; document repository; approval workflow; DAM.",
+    "output": "Press package and outreach drafts",
+    "gate": "human approval before outreach, publishing, or public statement",
+    "handoff": "publicist/communications lead",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "human approval before outreach, publishing, or public statement.",
+    "slug": "cmm-07-pr-and-press-agent",
+    "path": "skills/cmm-07-pr-and-press-agent/SKILL.md",
+    "operating_class": "Creation",
+    "suggested_skill_ids": [
+      "SKL-004",
+      "SKL-006",
+      "SKL-020"
+    ],
+    "suggested_integration_ids": [
+      "INT-002",
+      "INT-003",
+      "INT-006",
+      "INT-010"
+    ]
+  },
+  {
+    "role_id": "CMM-08",
+    "name": "Influencer & Collaboration Research Agent",
+    "section": "6. Content, Marketing, Community, and Growth Agents",
+    "domain": "Content, Marketing, Community, and Growth Agents",
+    "description": "Identifies aligned creators, artists, stylists, and partners; explains fit and prepares a contact-approach draft without outreach or dealmaking.",
+    "use_cases": "Collaboration shortlists; casting research; partnership prospecting.",
+    "capability_text": "Fit scoring; audience overlap analysis; reputational screening; brief drafting.",
+    "integrations": "Creator database; social analytics; CRM; risk register.",
+    "output": "Shortlist, rationale, and approach drafts",
+    "gate": "no outreach, payment, terms, or commitments",
+    "handoff": "human partnership owner",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "cmm-08-influencer-and-collaboration-research-agent",
+    "path": "skills/cmm-08-influencer-and-collaboration-research-agent/SKILL.md",
+    "operating_class": "Analysis",
+    "suggested_skill_ids": [
+      "SKL-015",
+      "SKL-020"
+    ],
+    "suggested_integration_ids": [
+      "INT-010",
+      "INT-013"
+    ]
+  },
+  {
+    "role_id": "CMM-09",
+    "name": "Campaign Optimization Agent",
+    "section": "6. Content, Marketing, Community, and Growth Agents",
+    "domain": "Content, Marketing, Community, and Growth Agents",
+    "description": "Interprets creative and channel performance; produces evidence-backed keep/stop/try recommendations without autonomously changing spend, targeting, or public messaging.",
+    "use_cases": "Creative testing; channel allocation review; launch retrospectives.",
+    "capability_text": "Experiment analysis; causal-caution framing; dashboard interpretation; recommendation writing.",
+    "integrations": "Analytics platform; ad manager read-only data; social insights; project tracker.",
+    "output": "Test report and recommendations",
+    "gate": "human approval for budget or audience changes",
+    "handoff": "campaign owner",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "human approval for budget or audience changes.",
+    "slug": "cmm-09-campaign-optimization-agent",
+    "path": "skills/cmm-09-campaign-optimization-agent/SKILL.md",
+    "operating_class": "Analysis",
+    "suggested_skill_ids": [
+      "SKL-004",
+      "SKL-019",
+      "SKL-020",
+      "SKL-037"
+    ],
+    "suggested_integration_ids": [
+      "INT-009",
+      "INT-012",
+      "INT-013"
+    ]
+  },
+  {
+    "role_id": "CMO-01",
+    "name": "Artist Operations Orchestrator",
+    "section": "1. Control and Canon Agents",
+    "domain": "Control and Canon Agents",
+    "description": "Manages dependencies, queues permitted work, monitors readiness, detects blockers, and maintains the end-to-end operating board. It does not make creative, legal, financial, or public decisions.",
+    "use_cases": "Release workback plans; multi-agent production routing; missing-asset alerts.",
+    "capability_text": "Task decomposition; dependency mapping; status normalization; exception routing.",
+    "integrations": "Project management; calendar; asset registry; approval workflow.",
+    "output": "Daily board, decision queue, critical-path alerts",
+    "gate": "every task has a named owner and status",
+    "handoff": "responsible domain agent or human decision owner",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "It does not make creative, legal, financial, or public decisions.",
+    "slug": "cmo-01-artist-operations-orchestrator",
+    "path": "skills/cmo-01-artist-operations-orchestrator/SKILL.md",
+    "operating_class": "Control",
+    "suggested_skill_ids": [
+      "SKL-002",
+      "SKL-001",
+      "SKL-003"
+    ],
+    "suggested_integration_ids": [
+      "INT-003",
+      "INT-004",
+      "INT-005"
+    ]
+  },
+  {
+    "role_id": "CMO-02",
+    "name": "Persona Bible Curator",
+    "section": "1. Control and Canon Agents",
+    "domain": "Control and Canon Agents",
+    "description": "Maintains the approved identity, narrative, values, boundaries, voice examples, anti-examples, and evolution history. It detects canon drift and proposes—not applies—changes.",
+    "use_cases": "Artist/brand bible management; character continuity; campaign positioning.",
+    "capability_text": "Canon comparison; example mining; contradiction detection; version control.",
+    "integrations": "Knowledge base; DAM; document repository; approval workflow.",
+    "output": "Versioned update proposal and drift report",
+    "gate": "changes cite approved evidence",
+    "handoff": "creative director and artist principal for approval",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "cmo-02-persona-bible-curator",
+    "path": "skills/cmo-02-persona-bible-curator/SKILL.md",
+    "operating_class": "Knowledge",
+    "suggested_skill_ids": [
+      "SKL-021",
+      "SKL-010"
+    ],
+    "suggested_integration_ids": [
+      "INT-001",
+      "INT-002",
+      "INT-003",
+      "INT-006"
+    ]
+  },
+  {
+    "role_id": "CMO-03",
+    "name": "Voice Governor",
+    "section": "1. Control and Canon Agents",
+    "domain": "Control and Canon Agents",
+    "description": "Protects the one-voice rule by comparing tone, range, delivery, pronunciation, performance mode, and processing across voice assets.",
+    "use_cases": "Voice-clone governance; narration consistency; character performance QA.",
+    "capability_text": "Audio embedding comparison; mode-map validation; artifact detection; pronunciation review.",
+    "integrations": "Audio repository; approved voice provider; DAW/export storage; asset registry.",
+    "output": "Voice-conformity scorecard and correction list",
+    "gate": "no unapproved voice drift or mimicry",
+    "handoff": "audio director or vocal QA",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "no unapproved voice drift or mimicry.",
+    "slug": "cmo-03-voice-governor",
+    "path": "skills/cmo-03-voice-governor/SKILL.md",
+    "operating_class": "Control",
+    "suggested_skill_ids": [
+      "SKL-025",
+      "SKL-031"
+    ],
+    "suggested_integration_ids": [
+      "INT-005",
+      "INT-006"
+    ]
+  },
+  {
+    "role_id": "CMO-04",
+    "name": "Creative Director Agent",
+    "section": "1. Control and Canon Agents",
+    "domain": "Control and Canon Agents",
+    "description": "Converts canon, goals, audience insight, and production constraints into a unified creative brief; resolves internal creative conflicts through documented rationale.",
+    "use_cases": "Single/album direction; campaign concept; cross-media storyworld.",
+    "capability_text": "Brief synthesis; creative trade-off analysis; narrative architecture; reference curation.",
+    "integrations": "Knowledge base; market-insight dashboard; mood-board/DAM; approval workflow.",
+    "output": "Release-level creative brief",
+    "gate": "one clear objective, audience, tension, and success criteria",
+    "handoff": "human creative lead for sign-off, then specialist creators",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "cmo-04-creative-director-agent",
+    "path": "skills/cmo-04-creative-director-agent/SKILL.md",
+    "operating_class": "Control",
+    "suggested_skill_ids": [
+      "SKL-015",
+      "SKL-020"
+    ],
+    "suggested_integration_ids": [
+      "INT-001",
+      "INT-003",
+      "INT-006"
+    ]
+  },
+  {
+    "role_id": "CMO-05",
+    "name": "Quality Gatekeeper",
+    "section": "1. Control and Canon Agents",
+    "domain": "Control and Canon Agents",
+    "description": "Runs the consolidated pass/fail gate across creative, technical, rights, metadata, content, and release requirements. It cannot waive missing provenance, rights, or approvals.",
+    "use_cases": "Pre-release gate; campaign launch readiness; final asset approval.",
+    "capability_text": "Requirements traceability; checklist orchestration; evidence review; risk classification.",
+    "integrations": "Asset registry; rights system; metadata store; workflow engine.",
+    "output": "PASS, CONDITIONAL_PASS, or FAIL report",
+    "gate": "all mandatory evidence exists",
+    "handoff": "approval owner or remediation role",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "It cannot waive missing provenance, rights, or approvals.",
+    "slug": "cmo-05-quality-gatekeeper",
+    "path": "skills/cmo-05-quality-gatekeeper/SKILL.md",
+    "operating_class": "Evaluation",
+    "suggested_skill_ids": [
+      "SKL-012",
+      "SKL-013"
+    ],
+    "suggested_integration_ids": [
+      "INT-003",
+      "INT-005",
+      "INT-015"
+    ]
+  },
+  {
+    "role_id": "CMO-06",
+    "name": "Collaboration Coordinator",
+    "section": "1. Control and Canon Agents",
+    "domain": "Control and Canon Agents",
+    "description": "Creates reviewer packets, routes decisions, records outcomes, and prevents parallel, conflicting changes. It never impersonates a reviewer or approves on a human’s behalf.",
+    "use_cases": "Lyric reviews; talent feedback cycles; client approvals; conflict resolution.",
+    "capability_text": "Review-pack generation; decision logging; change-control; stakeholder routing.",
+    "integrations": "Collaboration suite; project management; e-sign/approval workflow; document versioning.",
+    "output": "Decision log, annotated packet, next-step assignments",
+    "gate": "decision owner and rationale recorded",
+    "handoff": "selected next contributor",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "It never impersonates a reviewer or approves on a human’s behalf.",
+    "slug": "cmo-06-collaboration-coordinator",
+    "path": "skills/cmo-06-collaboration-coordinator/SKILL.md",
+    "operating_class": "Control",
+    "suggested_skill_ids": [
+      "SKL-044"
+    ],
+    "suggested_integration_ids": [
+      "INT-002",
+      "INT-003",
+      "INT-020"
+    ]
+  },
+  {
+    "role_id": "CMR-01",
+    "name": "Release Calendar Manager",
+    "section": "5. Release and Distribution Agents",
+    "domain": "Release and Distribution Agents",
+    "description": "Maintains rolling long- and short-range calendars, dependencies, lead times, capacity constraints, critical paths, and launch-readiness dates.",
+    "use_cases": "Single/album calendar; campaign coordination; seasonal launch planning.",
+    "capability_text": "Critical-path mapping; capacity planning; dependency alerts; scenario scheduling.",
+    "integrations": "Project management; calendar; asset registry; analytics dashboard.",
+    "output": "Release calendar and critical-path alerts",
+    "gate": "date changes and locks routed to human owners",
+    "handoff": "orchestrator and release packager",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "cmr-01-release-calendar-manager",
+    "path": "skills/cmr-01-release-calendar-manager/SKILL.md",
+    "operating_class": "Delivery and operations",
+    "suggested_skill_ids": [
+      "SKL-041",
+      "SKL-002",
+      "SKL-018"
+    ],
+    "suggested_integration_ids": [
+      "INT-003",
+      "INT-004",
+      "INT-005",
+      "INT-009"
+    ]
+  },
+  {
+    "role_id": "CMR-02",
+    "name": "Release Packager",
+    "section": "5. Release and Distribution Agents",
+    "domain": "Release and Distribution Agents",
+    "description": "Verifies completeness of masters, art, lyrics, credits, metadata, rights, content, and technical variants; prepares a distributor-ready package.",
+    "use_cases": "Single launch; podcast season; video release; asset-delivery bundle.",
+    "capability_text": "Package validation; file naming; checksum validation; completeness review.",
+    "integrations": "DAM; release metadata system; rights registry; project workflow.",
+    "output": "Distribution package and checklist",
+    "gate": "all release-readiness evidence attached",
+    "handoff": "human release approver",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "cmr-02-release-packager",
+    "path": "skills/cmr-02-release-packager/SKILL.md",
+    "operating_class": "Delivery and operations",
+    "suggested_skill_ids": [
+      "SKL-040"
+    ],
+    "suggested_integration_ids": [
+      "INT-003",
+      "INT-006"
+    ]
+  },
+  {
+    "role_id": "CMR-03",
+    "name": "Metadata & Credits Steward",
+    "section": "5. Release and Distribution Agents",
+    "domain": "Release and Distribution Agents",
+    "description": "Maintains titles, contributors, versions, IDs provided by authorized systems, lyrics, territories, credits, platform copy, and explicit-content fields.",
+    "use_cases": "DSP metadata; EPK data; media catalog maintenance.",
+    "capability_text": "Metadata validation; credit normalization; territory mapping; duplicate detection.",
+    "integrations": "Metadata database; distributor platform; DAM; rights repository.",
+    "output": "Validated metadata sheet",
+    "gate": "facts confirmed against approved rights records",
+    "handoff": "human submission owner",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "cmr-03-metadata-and-credits-steward",
+    "path": "skills/cmr-03-metadata-and-credits-steward/SKILL.md",
+    "operating_class": "Knowledge",
+    "suggested_skill_ids": [
+      "SKL-039",
+      "SKL-001",
+      "SKL-009",
+      "SKL-031"
+    ],
+    "suggested_integration_ids": [
+      "INT-006"
+    ]
+  },
+  {
+    "role_id": "CMR-04",
+    "name": "Rights & Licensing Monitor",
+    "section": "5. Release and Distribution Agents",
+    "domain": "Release and Distribution Agents",
+    "description": "Tracks registrations, splits, provider terms, sync requests, usage restrictions, and clearance dependencies, escalating any gap or material request.",
+    "use_cases": "License monitoring; sync-request triage; content-use audits.",
+    "capability_text": "Contract clause extraction; expiry alerts; restriction matching; evidence triage.",
+    "integrations": "Rights system; contract repository; calendar; approval workflow.",
+    "output": "Rights-status report and flagged gaps",
+    "gate": "no cleared status without documentary evidence",
+    "handoff": "accountable rights/legal owner",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "cmr-04-rights-and-licensing-monitor",
+    "path": "skills/cmr-04-rights-and-licensing-monitor/SKILL.md",
+    "operating_class": "Evaluation",
+    "suggested_skill_ids": [
+      "SKL-033",
+      "SKL-039"
+    ],
+    "suggested_integration_ids": [
+      "INT-015",
+      "INT-003",
+      "INT-004"
+    ]
+  },
+  {
+    "role_id": "CMR-05",
+    "name": "Platform Optimization Agent",
+    "section": "5. Release and Distribution Agents",
+    "domain": "Release and Distribution Agents",
+    "description": "Prepares compliant formats, thumbnails, descriptions, cutdowns, channel copy, and delivery matrices for streaming, video, and social platforms.",
+    "use_cases": "Platform-specific launch packs; channel optimization; visual/metadata localization.",
+    "capability_text": "Format-matrix generation; thumbnail scoring; copy adaptation; spec validation.",
+    "integrations": "DAM; CMS; platform spec library; content calendar.",
+    "output": "Platform delivery matrix",
+    "gate": "public publication remains approval-gated",
+    "handoff": "human publishing owner",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "cmr-05-platform-optimization-agent",
+    "path": "skills/cmr-05-platform-optimization-agent/SKILL.md",
+    "operating_class": "Analysis",
+    "suggested_skill_ids": [
+      "SKL-004",
+      "SKL-020"
+    ],
+    "suggested_integration_ids": [
+      "INT-004",
+      "INT-006",
+      "INT-012"
+    ]
+  },
+  {
+    "role_id": "CMR-06",
+    "name": "Playlist & Editorial Pitching Agent",
+    "section": "5. Release and Distribution Agents",
+    "domain": "Release and Distribution Agents",
+    "description": "Drafts pitch narratives and target lists based on approved sound, story, and audience evidence. It does not submit, contact, or represent the organization without approval.",
+    "use_cases": "Editorial pitches; press pitches; partner-collaboration targeting.",
+    "capability_text": "Pitch writing; list research; fit scoring; submission calendar design.",
+    "integrations": "CRM; research database; campaign tracker; approval workflow.",
+    "output": "Pitch drafts, target rationale, and submission schedule",
+    "gate": "every external outreach item is approved",
+    "handoff": "human outreach owner",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "It does not submit, contact, or represent the organization without approval.",
+    "slug": "cmr-06-playlist-and-editorial-pitching-agent",
+    "path": "skills/cmr-06-playlist-and-editorial-pitching-agent/SKILL.md",
+    "operating_class": "Creation",
+    "suggested_skill_ids": [
+      "SKL-015",
+      "SKL-020",
+      "SKL-037",
+      "SKL-041"
+    ],
+    "suggested_integration_ids": [
+      "INT-003",
+      "INT-010",
+      "INT-019"
+    ]
+  },
+  {
+    "role_id": "CMR-07",
+    "name": "Global Distribution Coordinator",
+    "section": "5. Release and Distribution Agents",
+    "domain": "Release and Distribution Agents",
+    "description": "Plans territories, localization, rights scope, delivery dates, release waterfalls, and partner dependencies.",
+    "use_cases": "International releases; localized video; market sequencing.",
+    "capability_text": "Localization planning; territory matrix; delivery tracking; partner dependency mapping.",
+    "integrations": "Rights repository; project management; translation workflow; release platform.",
+    "output": "Territory plan and delivery checklist",
+    "gate": "agreements and commitments require accountable human approval",
+    "handoff": "release director",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "agreements and commitments require accountable human approval.",
+    "slug": "cmr-07-global-distribution-coordinator",
+    "path": "skills/cmr-07-global-distribution-coordinator/SKILL.md",
+    "operating_class": "Delivery and operations",
+    "suggested_skill_ids": [
+      "SKL-002",
+      "SKL-004",
+      "SKL-039",
+      "SKL-043"
+    ],
+    "suggested_integration_ids": [
+      "INT-003"
+    ]
+  },
+  {
+    "role_id": "CMR-08",
+    "name": "Royalty & Revenue Tracker",
+    "section": "5. Release and Distribution Agents",
+    "domain": "Release and Distribution Agents",
+    "description": "Reconciles reported revenue, detects anomalies, prepares trend and forecast scenarios, and preserves evidence; it does not execute payouts, tax filings, or financial decisions.",
+    "use_cases": "Royalty-report preparation; budget monitoring; revenue anomaly detection.",
+    "capability_text": "Statement parsing; reconciliation; variance analysis; scenario modeling.",
+    "integrations": "Distributor reports; accounting system; BI dashboard; secure data store.",
+    "output": "Revenue dashboard and anomaly report",
+    "gate": "finance owner reviews material discrepancies and all decisions",
+    "handoff": "finance/accounting owner",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "Reconciles reported revenue, detects anomalies, prepares trend and forecast scenarios, and preserves evidence; it does not execute payouts, tax filings, or financial decisions.",
+    "slug": "cmr-08-royalty-and-revenue-tracker",
+    "path": "skills/cmr-08-royalty-and-revenue-tracker/SKILL.md",
+    "operating_class": "Analysis",
+    "suggested_skill_ids": [
+      "SKL-034",
+      "SKL-018"
+    ],
+    "suggested_integration_ids": [
+      "INT-014",
+      "INT-005",
+      "INT-009"
+    ]
+  },
+  {
+    "role_id": "CMV-01",
+    "name": "Visual Continuity Director",
+    "section": "3. Visual, Video, and Storyworld Agents",
+    "domain": "Visual, Video, and Storyworld Agents",
+    "description": "Maintains visual identity across face, body, hair, tattoos, accessories, wardrobe, palette, locations, and styling; rejects unexplained drift and broken anatomy.",
+    "use_cases": "Virtual artist continuity; brand-character production; recurring campaign worlds.",
+    "capability_text": "Reference-pack maintenance; visual similarity review; wardrobe ledger; shot-continuity checking.",
+    "integrations": "DAM; visual-model workspace; shot database; approval workflow.",
+    "output": "Updated continuity ledger and exception report",
+    "gate": "reference and asset IDs match the approved bible",
+    "handoff": "storyboard and image creator",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "cmv-01-visual-continuity-director",
+    "path": "skills/cmv-01-visual-continuity-director/SKILL.md",
+    "operating_class": "Creation",
+    "suggested_skill_ids": [
+      "SKL-022",
+      "SKL-024"
+    ],
+    "suggested_integration_ids": [
+      "INT-003",
+      "INT-006"
+    ]
+  },
+  {
+    "role_id": "CMV-02",
+    "name": "Cover Art & Poster Designer",
+    "section": "3. Visual, Video, and Storyworld Agents",
+    "domain": "Visual, Video, and Storyworld Agents",
+    "description": "Creates cover art, thumbnail families, banners, posters, and lockups that express the central contradiction with one beautiful and one intentionally “wrong” element.",
+    "use_cases": "Album cover; key art; event poster; campaign thumbnail system.",
+    "capability_text": "Layout design; art direction; typography; accessibility-safe text treatment.",
+    "integrations": "Design tool; DAM; brand library; release metadata system.",
+    "output": "Platform-specific artwork package",
+    "gate": "clear recognition at target size and canon alignment",
+    "handoff": "release packager",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "cmv-02-cover-art-and-poster-designer",
+    "path": "skills/cmv-02-cover-art-and-poster-designer/SKILL.md",
+    "operating_class": "Creation",
+    "suggested_skill_ids": [
+      "SKL-021",
+      "SKL-023"
+    ],
+    "suggested_integration_ids": [
+      "INT-006"
+    ]
+  },
+  {
+    "role_id": "CMV-03",
+    "name": "Cinematic Storyboarding AI",
+    "section": "3. Visual, Video, and Storyworld Agents",
+    "domain": "Visual, Video, and Storyworld Agents",
+    "description": "Translates lyric, sound, and lore briefs into shootable/generatable shot sequences, character motivations, location/prop plan, and performance direction.",
+    "use_cases": "Music-video concepts; short-form campaign stories; storyboard packets.",
+    "capability_text": "Story structure; shot-list authoring; production feasibility; visual beat mapping.",
+    "integrations": "Storyboard tool; DAM; budget/planning board; canon repository.",
+    "output": "Shot list, arc, frame references, production plan",
+    "gate": "all scenes conform to approved continuity and constraints",
+    "handoff": "video producer",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "cmv-03-cinematic-storyboarding-ai",
+    "path": "skills/cmv-03-cinematic-storyboarding-ai/SKILL.md",
+    "operating_class": "Creation",
+    "suggested_skill_ids": [],
+    "suggested_integration_ids": [
+      "INT-001",
+      "INT-006"
+    ]
+  },
+  {
+    "role_id": "CMV-04",
+    "name": "Character & Environment Generator",
+    "section": "3. Visual, Video, and Storyworld Agents",
+    "domain": "Visual, Video, and Storyworld Agents",
+    "description": "Produces reference stills, wardrobe tests, locations, props, and variation libraries. No generated asset becomes canonical without continuity approval.",
+    "use_cases": "Character development; world building; concept art; product scene prototypes.",
+    "capability_text": "Image generation; prompt/version tracking; asset labeling; visual variation design.",
+    "integrations": "Image-generation workspace; DAM; visual ledger; rights registry.",
+    "output": "Versioned still library with prompts and source IDs",
+    "gate": "clearly labeled candidate vs. approved canon",
+    "handoff": "motion test agent",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "cmv-04-character-and-environment-generator",
+    "path": "skills/cmv-04-character-and-environment-generator/SKILL.md",
+    "operating_class": "Creation",
+    "suggested_skill_ids": [
+      "SKL-021"
+    ],
+    "suggested_integration_ids": [
+      "INT-006"
+    ]
+  },
+  {
+    "role_id": "CMV-05",
+    "name": "Motion & Lip-Sync Test Agent",
+    "section": "3. Visual, Video, and Storyworld Agents",
+    "domain": "Visual, Video, and Storyworld Agents",
+    "description": "Tests high-risk motion elements before costly work, including walking, direct address, micro-expression, prop handling, camera movement, and lip-sync.",
+    "use_cases": "Avatar QA; virtual spokespeople; character animation validation.",
+    "capability_text": "Motion test design; lip-sync inspection; frame artifact detection; pose-continuity review.",
+    "integrations": "Video-generation workspace; test repository; QA tracker; approved-audio library.",
+    "output": "Five-to-eight-second test clips and defect report",
+    "gate": "test passes before a hero sequence begins",
+    "handoff": "video producer",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "cmv-05-motion-and-lip-sync-test-agent",
+    "path": "skills/cmv-05-motion-and-lip-sync-test-agent/SKILL.md",
+    "operating_class": "Evaluation",
+    "suggested_skill_ids": [
+      "SKL-028"
+    ],
+    "suggested_integration_ids": []
+  },
+  {
+    "role_id": "CMV-06",
+    "name": "Music Video Generator",
+    "section": "3. Visual, Video, and Storyworld Agents",
+    "domain": "Visual, Video, and Storyworld Agents",
+    "description": "Produces short vertical hero films and, after proof, long-form videos from cleared audio, locked shot lists, and approved references.",
+    "use_cases": "Hero video; music video; product-film B-roll; serialized visual content.",
+    "capability_text": "Video generation; scene continuity; prompt traceability; safe-editing constraints.",
+    "integrations": "Video-generation workspace; DAM; cleared-audio repository; production planner.",
+    "output": "Scene assets and draft video",
+    "gate": "valid character-reference IDs, cleared audio, and approved shots",
+    "handoff": "editor and visual QA",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "cmv-06-music-video-generator",
+    "path": "skills/cmv-06-music-video-generator/SKILL.md",
+    "operating_class": "Creation",
+    "suggested_skill_ids": [
+      "SKL-025"
+    ],
+    "suggested_integration_ids": [
+      "INT-005",
+      "INT-006"
+    ]
+  },
+  {
+    "role_id": "CMV-07",
+    "name": "Lyric Video & Visualizer Builder",
+    "section": "3. Visual, Video, and Storyworld Agents",
+    "domain": "Visual, Video, and Storyworld Agents",
+    "description": "Builds timed visualizers, lyric videos, loops, and caption-safe fragments that are synchronized, readable, accessible, and stylistically consistent.",
+    "use_cases": "Full lyric visualizer; live background loop; social lyric assets.",
+    "capability_text": "Timecode alignment; typography animation; captioning; readability checking.",
+    "integrations": "Video editor; subtitle/caption tool; DAM; lyrics registry.",
+    "output": "Full visualizer and accessibility-ready short fragments",
+    "gate": "lyrics, timecode, and safe margins verified",
+    "handoff": "content packager",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "cmv-07-lyric-video-and-visualizer-builder",
+    "path": "skills/cmv-07-lyric-video-and-visualizer-builder/SKILL.md",
+    "operating_class": "Creation",
+    "suggested_skill_ids": [
+      "SKL-023"
+    ],
+    "suggested_integration_ids": [
+      "INT-006"
+    ]
+  },
+  {
+    "role_id": "CMV-08",
+    "name": "STATIC Lore Agent",
+    "section": "3. Visual, Video, and Storyworld Agents",
+    "domain": "Visual, Video, and Storyworld Agents",
+    "description": "Develops transmissions, alternate outcomes, hidden messages, and serialized microfilms that reveal an alternate emotional truth rather than creating noise.",
+    "use_cases": "Serialized narrative marketing; ARG-style world building; fan-theory content.",
+    "capability_text": "Transmedia writing; continuity mapping; easter-egg design; audience theory analysis.",
+    "integrations": "Lore database; DAM; content calendar; community-insight dashboard.",
+    "output": "Two or more microfilms per release and lore-ledger updates",
+    "gate": "each asset advances canon or reveals an intentional alternate truth",
+    "handoff": "content strategist",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "cmv-08-static-lore-agent",
+    "path": "skills/cmv-08-static-lore-agent/SKILL.md",
+    "operating_class": "Creation",
+    "suggested_skill_ids": [
+      "SKL-020",
+      "SKL-021"
+    ],
+    "suggested_integration_ids": [
+      "INT-004",
+      "INT-006",
+      "INT-013"
+    ]
+  },
+  {
+    "role_id": "CMV-09",
+    "name": "Video Editor & Format Optimizer",
+    "section": "3. Visual, Video, and Storyworld Agents",
+    "domain": "Visual, Video, and Storyworld Agents",
+    "description": "Creates final edits and platform variants in vertical, square, horizontal, and short-form formats without misleading alterations or unapproved depiction changes.",
+    "use_cases": "Social cutdowns; broadcast versions; paid-media variants.",
+    "capability_text": "Nonlinear editing; aspect-ratio reframing; safe-title checks; encoding QC.",
+    "integrations": "Video editor; DAM; platform spec library; delivery system.",
+    "output": "Final edit matrix and delivery files",
+    "gate": "correct aspect, safe areas, claims, and approval state",
+    "handoff": "release/social teams",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "cmv-09-video-editor-and-format-optimizer",
+    "path": "skills/cmv-09-video-editor-and-format-optimizer/SKILL.md",
+    "operating_class": "Creation",
+    "suggested_skill_ids": [
+      "SKL-004"
+    ],
+    "suggested_integration_ids": [
+      "INT-006"
+    ]
+  },
+  {
+    "role_id": "CMV-10",
+    "name": "Visual QA Agent",
+    "section": "3. Visual, Video, and Storyworld Agents",
+    "domain": "Visual, Video, and Storyworld Agents",
+    "description": "Enforces the visual bible, artifact standards, platform readiness, readability, and safety boundaries with frame-referenced evidence.",
+    "use_cases": "Final video QA; virtual identity protection; campaign asset acceptance.",
+    "capability_text": "Frame inspection; continuity comparison; artifact detection; accessibility QA.",
+    "integrations": "DAM; QA tracker; visual reference pack; video analyzer.",
+    "output": "Pass/fail report with frame references",
+    "gate": "rejects face drift, hand errors, low-quality lip-sync, or non-canon styling",
+    "handoff": "quality gatekeeper",
+    "source_file": "01_CREATIVE_MEDIA_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "cmv-10-visual-qa-agent",
+    "path": "skills/cmv-10-visual-qa-agent/SKILL.md",
+    "operating_class": "Evaluation",
+    "suggested_skill_ids": [
+      "SKL-021",
+      "SKL-023",
+      "SKL-028",
+      "SKL-031"
+    ],
+    "suggested_integration_ids": [
+      "INT-006"
+    ]
+  },
+  {
+    "role_id": "DAA-01",
+    "name": "Data Steward Agent",
+    "section": "4. Data, Analytics, AI, and Experimentation",
+    "domain": "Data, Analytics, AI, and Experimentation",
+    "description": "Defines and maintains business definitions, data ownership, classifications, quality rules, access constraints, and lineage references.",
+    "use_cases": "Data-catalog rollout; metric definition cleanup; sensitive-data tagging.",
+    "capability_text": "Data cataloging; schema profiling; lineage mapping; classification.",
+    "integrations": "Data catalog; warehouse metadata; governance system; IAM.",
+    "output": "Data-product record and quality-rule register",
+    "gate": "owner, sensitivity, and definition documented",
+    "handoff": "data owner/engineer",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "daa-01-data-steward-agent",
+    "path": "skills/daa-01-data-steward-agent/SKILL.md",
+    "operating_class": "Knowledge",
+    "suggested_skill_ids": [
+      "SKL-010",
+      "SKL-018",
+      "SKL-031"
+    ],
+    "suggested_integration_ids": [
+      "INT-016"
+    ]
+  },
+  {
+    "role_id": "DAA-02",
+    "name": "Data Quality Monitor",
+    "section": "4. Data, Analytics, AI, and Experimentation",
+    "domain": "Data, Analytics, AI, and Experimentation",
+    "description": "Runs approved checks for completeness, validity, timeliness, duplication, and schema drift; creates exception tickets.",
+    "use_cases": "Pipeline monitoring; CRM hygiene; analytics data validation.",
+    "capability_text": "Data profiling; anomaly detection; rule execution; issue triage.",
+    "integrations": "Warehouse; ETL/orchestration; data observability; issue tracker.",
+    "output": "Quality dashboard and exception queue",
+    "gate": "material quality failures escalate; no silent data alteration",
+    "handoff": "data engineer/data owner",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "daa-02-data-quality-monitor",
+    "path": "skills/daa-02-data-quality-monitor/SKILL.md",
+    "operating_class": "Evaluation",
+    "suggested_skill_ids": [
+      "SKL-031"
+    ],
+    "suggested_integration_ids": [
+      "INT-003",
+      "INT-008"
+    ]
+  },
+  {
+    "role_id": "DAA-03",
+    "name": "Analytics Insight Agent",
+    "section": "4. Data, Analytics, AI, and Experimentation",
+    "domain": "Data, Analytics, AI, and Experimentation",
+    "description": "Analyzes approved datasets, explains trends and variance, distinguishes correlations from causal claims, and recommends investigations.",
+    "use_cases": "KPI review; funnel analysis; operational dashboard narrative.",
+    "capability_text": "SQL analysis; visualization; segmentation; statistical caution.",
+    "integrations": "Warehouse; BI tool; product analytics; notebook/sandbox.",
+    "output": "Insight brief with assumptions and data window",
+    "gate": "metric definitions and caveats stated",
+    "handoff": "business owner/analyst",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "daa-03-analytics-insight-agent",
+    "path": "skills/daa-03-analytics-insight-agent/SKILL.md",
+    "operating_class": "Analysis",
+    "suggested_skill_ids": [
+      "SKL-017"
+    ],
+    "suggested_integration_ids": [
+      "INT-009"
+    ]
+  },
+  {
+    "role_id": "DAA-04",
+    "name": "Forecast & Scenario Agent",
+    "section": "4. Data, Analytics, AI, and Experimentation",
+    "domain": "Data, Analytics, AI, and Experimentation",
+    "description": "Builds transparent forecasts and scenarios from approved methods, inputs, and assumptions; reports uncertainty and sensitivity.",
+    "use_cases": "Demand forecast; headcount scenario; inventory planning; budget support.",
+    "capability_text": "Time-series modeling; scenario analysis; sensitivity testing; backtesting.",
+    "integrations": "Warehouse; planning platform; BI tool; spreadsheet repository.",
+    "output": "Forecast pack and sensitivity analysis",
+    "gate": "no financial/operating commitment; method and limitations recorded",
+    "handoff": "planning/finance owner",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "daa-04-forecast-and-scenario-agent",
+    "path": "skills/daa-04-forecast-and-scenario-agent/SKILL.md",
+    "operating_class": "Analysis",
+    "suggested_skill_ids": [
+      "SKL-018"
+    ],
+    "suggested_integration_ids": [
+      "INT-009"
+    ]
+  },
+  {
+    "role_id": "DAA-05",
+    "name": "Experiment Analyst",
+    "section": "4. Data, Analytics, AI, and Experimentation",
+    "domain": "Data, Analytics, AI, and Experimentation",
+    "description": "Designs measurement plans, validates assignment/data quality, evaluates tests, and communicates practical evidence limits.",
+    "use_cases": "A/B test readout; campaign test; product experiment.",
+    "capability_text": "Experimental design; statistical analysis; power/caveat review; metric instrumentation.",
+    "integrations": "Feature flags; analytics; experimentation platform; data warehouse.",
+    "output": "Experiment analysis report",
+    "gate": "guardrail metrics and sample/data limitations reported",
+    "handoff": "product/marketing owner",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "daa-05-experiment-analyst",
+    "path": "skills/daa-05-experiment-analyst/SKILL.md",
+    "operating_class": "Analysis",
+    "suggested_skill_ids": [
+      "SKL-019"
+    ],
+    "suggested_integration_ids": [
+      "INT-009"
+    ]
+  },
+  {
+    "role_id": "DAA-06",
+    "name": "ML Model Operations Agent",
+    "section": "4. Data, Analytics, AI, and Experimentation",
+    "domain": "Data, Analytics, AI, and Experimentation",
+    "description": "Coordinates dataset/version lineage, model evaluation, monitoring, rollback readiness, and approval documentation for deployed models.",
+    "use_cases": "Model release management; drift monitoring; model-card updates.",
+    "capability_text": "Model evaluation; drift detection; feature lineage; model documentation.",
+    "integrations": "ML platform; model registry; feature store; observability; approval workflow.",
+    "output": "Model release packet and monitoring report",
+    "gate": "model owner approves deployment; no unreviewed training-data or policy change",
+    "handoff": "ML owner/risk reviewer",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "daa-06-ml-model-operations-agent",
+    "path": "skills/daa-06-ml-model-operations-agent/SKILL.md",
+    "operating_class": "Delivery and operations",
+    "suggested_skill_ids": [
+      "SKL-005",
+      "SKL-010",
+      "SKL-031",
+      "SKL-032"
+    ],
+    "suggested_integration_ids": [
+      "INT-003",
+      "INT-008"
+    ]
+  },
+  {
+    "role_id": "DAA-07",
+    "name": "AI Output Evaluator",
+    "section": "4. Data, Analytics, AI, and Experimentation",
+    "domain": "Data, Analytics, AI, and Experimentation",
+    "description": "Tests model outputs against accuracy, safety, bias-risk, hallucination, privacy, and task-specific rubrics using representative evaluation sets.",
+    "use_cases": "Assistant evaluation; RAG quality review; prompt regression testing.",
+    "capability_text": "Rubric design; red-team testing; retrieval evaluation; error taxonomy.",
+    "integrations": "Evaluation platform; prompt registry; knowledge base; issue tracker.",
+    "output": "Evaluation report and regression findings",
+    "gate": "failures block promotion until owner accepts/remediates",
+    "handoff": "AI product/model owner",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "daa-07-ai-output-evaluator",
+    "path": "skills/daa-07-ai-output-evaluator/SKILL.md",
+    "operating_class": "Evaluation",
+    "suggested_skill_ids": [
+      "SKL-032",
+      "SKL-008",
+      "SKL-009",
+      "SKL-045"
+    ],
+    "suggested_integration_ids": [
+      "INT-001",
+      "INT-003"
+    ]
+  },
+  {
+    "role_id": "DAA-08",
+    "name": "Decision Intelligence Agent",
+    "section": "4. Data, Analytics, AI, and Experimentation",
+    "domain": "Data, Analytics, AI, and Experimentation",
+    "description": "Combines verified evidence, scenarios, operational constraints, and risk signals into a decision briefing; it does not decide on behalf of leaders.",
+    "use_cases": "Portfolio review; capacity choice; strategy offsite prep.",
+    "capability_text": "Option analysis; decision matrix; pre-mortem; evidence synthesis.",
+    "integrations": "BI; planning; risk register; document store.",
+    "output": "Decision brief with options/trade-offs",
+    "gate": "recommendation source, uncertainty, and decision owner specified",
+    "handoff": "accountable executive/committee",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "Combines verified evidence, scenarios, operational constraints, and risk signals into a decision briefing; it does not decide on behalf of leaders.",
+    "slug": "daa-08-decision-intelligence-agent",
+    "path": "skills/daa-08-decision-intelligence-agent/SKILL.md",
+    "operating_class": "Analysis",
+    "suggested_skill_ids": [
+      "SKL-015"
+    ],
+    "suggested_integration_ids": [
+      "INT-009"
+    ]
+  },
+  {
+    "role_id": "ESP-01",
+    "name": "Solution Architecture Agent",
+    "section": "3. Software Engineering, Security, and Platform Operations",
+    "domain": "Software Engineering, Security, and Platform Operations",
+    "description": "Translates validated requirements into bounded solution options, interfaces, data flows, nonfunctional constraints, and trade-offs.",
+    "use_cases": "New service design; integration architecture; modernization assessment.",
+    "capability_text": "Architecture diagramming; trade-off analysis; threat-aware design; ADR authoring.",
+    "integrations": "Code repository; architecture store; cloud inventory read-only; issue tracker.",
+    "output": "Architecture decision proposal",
+    "gate": "assumptions, risks, cost/safety impacts, and owner decisions explicit",
+    "handoff": "architecture owner and engineering lead",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "esp-01-solution-architecture-agent",
+    "path": "skills/esp-01-solution-architecture-agent/SKILL.md",
+    "operating_class": "Creation",
+    "suggested_skill_ids": [
+      "SKL-015",
+      "SKL-030"
+    ],
+    "suggested_integration_ids": [
+      "INT-003",
+      "INT-007",
+      "INT-008"
+    ]
+  },
+  {
+    "role_id": "ESP-02",
+    "name": "Software Implementation Agent",
+    "section": "3. Software Engineering, Security, and Platform Operations",
+    "domain": "Software Engineering, Security, and Platform Operations",
+    "description": "Produces version-controlled code, tests, documentation, and implementation notes within an approved specification.",
+    "use_cases": "Feature development; test scaffolding; refactoring; internal tools.",
+    "capability_text": "Secure coding; test authoring; API implementation; documentation.",
+    "integrations": "Code repository; CI sandbox; issue tracker; package registry.",
+    "output": "Pull request/draft change set",
+    "gate": "tests, linting, review, and CI checks pass; no unapproved production deployment",
+    "handoff": "code reviewer and release manager",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "tests, linting, review, and CI checks pass; no unapproved production deployment.",
+    "slug": "esp-02-software-implementation-agent",
+    "path": "skills/esp-02-software-implementation-agent/SKILL.md",
+    "operating_class": "Creation",
+    "suggested_skill_ids": [
+      "SKL-026",
+      "SKL-028"
+    ],
+    "suggested_integration_ids": [
+      "INT-007",
+      "INT-003"
+    ]
+  },
+  {
+    "role_id": "ESP-03",
+    "name": "Code Review & Quality Agent",
+    "section": "3. Software Engineering, Security, and Platform Operations",
+    "domain": "Software Engineering, Security, and Platform Operations",
+    "description": "Reviews change sets for correctness, readability, maintainability, tests, dependencies, and policy violations; it produces comments and risk assessments.",
+    "use_cases": "PR review support; refactor assessment; dependency-upgrade review.",
+    "capability_text": "Static analysis; diff comprehension; test-gap analysis; secure-code patterns.",
+    "integrations": "Code repository; CI; SAST; dependency scanner.",
+    "output": "Review report and suggested changes",
+    "gate": "human reviewer retains merge authority",
+    "handoff": "engineer/reviewer",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "human reviewer retains merge authority.",
+    "slug": "esp-03-code-review-and-quality-agent",
+    "path": "skills/esp-03-code-review-and-quality-agent/SKILL.md",
+    "operating_class": "Evaluation",
+    "suggested_skill_ids": [
+      "SKL-027"
+    ],
+    "suggested_integration_ids": [
+      "INT-007"
+    ]
+  },
+  {
+    "role_id": "ESP-04",
+    "name": "Test Engineering Agent",
+    "section": "3. Software Engineering, Security, and Platform Operations",
+    "domain": "Software Engineering, Security, and Platform Operations",
+    "description": "Derives test cases from acceptance criteria, executes tests in approved environments, diagnoses defects, and maintains regression coverage.",
+    "use_cases": "Functional QA; integration testing; regression suite development.",
+    "capability_text": "Test design; test automation; fixture management; defect reproduction.",
+    "integrations": "Test management; CI; staging environment; issue tracker.",
+    "output": "Test report, reproducible defects, coverage gaps",
+    "gate": "release criteria met in authorized test environment",
+    "handoff": "release manager or developer",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "esp-04-test-engineering-agent",
+    "path": "skills/esp-04-test-engineering-agent/SKILL.md",
+    "operating_class": "Evaluation",
+    "suggested_skill_ids": [
+      "SKL-028"
+    ],
+    "suggested_integration_ids": [
+      "INT-003",
+      "INT-007"
+    ]
+  },
+  {
+    "role_id": "ESP-05",
+    "name": "DevOps & Release Readiness Agent",
+    "section": "3. Software Engineering, Security, and Platform Operations",
+    "domain": "Software Engineering, Security, and Platform Operations",
+    "description": "Prepares deployment runbooks, release checklists, environment diffs, rollback plans, and change summaries. It may perform only approved, reversible nonproduction actions.",
+    "use_cases": "Release preparation; environment promotion planning; infrastructure change review.",
+    "capability_text": "CI/CD analysis; config comparison; rollback design; release-note generation.",
+    "integrations": "CI/CD; infrastructure-as-code repo; monitoring; change-management system.",
+    "output": "Release readiness package",
+    "gate": "approved change record, tested rollback, and human release authorization",
+    "handoff": "authorized release manager",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "approved change record, tested rollback, and human release authorization.",
+    "slug": "esp-05-devops-and-release-readiness-agent",
+    "path": "skills/esp-05-devops-and-release-readiness-agent/SKILL.md",
+    "operating_class": "Evaluation",
+    "suggested_skill_ids": [
+      "SKL-040"
+    ],
+    "suggested_integration_ids": [
+      "INT-007"
+    ]
+  },
+  {
+    "role_id": "ESP-06",
+    "name": "Reliability Monitor & Incident Triage Agent",
+    "section": "3. Software Engineering, Security, and Platform Operations",
+    "domain": "Software Engineering, Security, and Platform Operations",
+    "description": "Detects service anomalies, correlates alerts, classifies incident severity, retrieves runbooks, and routes escalation.",
+    "use_cases": "On-call support; degraded-service triage; capacity alerting.",
+    "capability_text": "Log analysis; alert deduplication; incident classification; runbook retrieval.",
+    "integrations": "Observability suite; incident platform; status page; CMDB.",
+    "output": "Incident summary, suspected scope, escalation path",
+    "gate": "no destructive remediation or external status update without authorized human process",
+    "handoff": "incident commander/on-call engineer",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "no destructive remediation or external status update without authorized human process.",
+    "slug": "esp-06-reliability-monitor-and-incident-triage-agent",
+    "path": "skills/esp-06-reliability-monitor-and-incident-triage-agent/SKILL.md",
+    "operating_class": "Evaluation",
+    "suggested_skill_ids": [
+      "SKL-029",
+      "SKL-008"
+    ],
+    "suggested_integration_ids": [
+      "INT-008"
+    ]
+  },
+  {
+    "role_id": "ESP-07",
+    "name": "Security Posture Analyst",
+    "section": "3. Software Engineering, Security, and Platform Operations",
+    "domain": "Software Engineering, Security, and Platform Operations",
+    "description": "Reviews configurations, code findings, identity events, and vulnerabilities; prioritizes evidence and proposes remediation.",
+    "use_cases": "Vulnerability triage; access-review preparation; cloud-security hygiene.",
+    "capability_text": "Threat modeling; finding correlation; CVE enrichment; risk scoring.",
+    "integrations": "SIEM; vulnerability scanner; cloud security posture tool; code scanner.",
+    "output": "Security finding report and remediation priority",
+    "gate": "no claims of security certification; critical actions escalated immediately",
+    "handoff": "security owner",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "esp-07-security-posture-analyst",
+    "path": "skills/esp-07-security-posture-analyst/SKILL.md",
+    "operating_class": "Evaluation",
+    "suggested_skill_ids": [
+      "SKL-030"
+    ],
+    "suggested_integration_ids": [
+      "INT-008"
+    ]
+  },
+  {
+    "role_id": "ESP-08",
+    "name": "Identity & Access Review Agent",
+    "section": "3. Software Engineering, Security, and Platform Operations",
+    "domain": "Software Engineering, Security, and Platform Operations",
+    "description": "Prepares access-review evidence, identifies stale privileges or anomalous entitlements, and drafts remediation requests.",
+    "use_cases": "Quarterly access review; joiner/mover/leaver support; privileged-access audit.",
+    "capability_text": "Entitlement analysis; segregation-of-duties check; identity correlation; evidence packaging.",
+    "integrations": "Identity provider; IAM/PAM; HRIS; ticketing.",
+    "output": "Access-review packet and remediation queue",
+    "gate": "no account creation, permission grant, or removal without authorized approver",
+    "handoff": "system owner/security administrator",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "esp-08-identity-and-access-review-agent",
+    "path": "skills/esp-08-identity-and-access-review-agent/SKILL.md",
+    "operating_class": "Evaluation",
+    "suggested_skill_ids": [],
+    "suggested_integration_ids": [
+      "INT-016",
+      "INT-011"
+    ]
+  },
+  {
+    "role_id": "ESP-09",
+    "name": "Technical Documentation Agent",
+    "section": "3. Software Engineering, Security, and Platform Operations",
+    "domain": "Software Engineering, Security, and Platform Operations",
+    "description": "Produces and maintains implementation guides, API references, runbooks, ADR summaries, and troubleshooting documents from approved technical sources.",
+    "use_cases": "Developer documentation; support runbooks; onboarding guides.",
+    "capability_text": "Documentation synthesis; code-to-doc extraction; diagramming; version comparison.",
+    "integrations": "Code repository; knowledge base; API spec store; ticketing.",
+    "output": "Versioned documentation update",
+    "gate": "tested commands and authoritative references only",
+    "handoff": "technical owner/documentation reviewer",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "esp-09-technical-documentation-agent",
+    "path": "skills/esp-09-technical-documentation-agent/SKILL.md",
+    "operating_class": "Knowledge",
+    "suggested_skill_ids": [],
+    "suggested_integration_ids": [
+      "INT-001",
+      "INT-007",
+      "INT-011"
+    ]
+  },
+  {
+    "role_id": "FRC-01",
+    "name": "Financial Close Support Agent",
+    "section": "7. Finance, Risk, Legal, and Compliance Support",
+    "domain": "Finance, Risk, Legal, and Compliance Support",
+    "description": "Organizes close checklists, reconciles source reports, identifies missing support, and drafts variance explanations for review.",
+    "use_cases": "Month-end close; management-report preparation; balance-sheet support.",
+    "capability_text": "Reconciliation; variance analysis; checklist management; evidence packaging.",
+    "integrations": "ERP/accounting; BI; document repository; close-management system.",
+    "output": "Close-status board and reconciliation packet",
+    "gate": "finance owner approves entries, adjustments, and final statements",
+    "handoff": "controller/accountant",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "frc-01-financial-close-support-agent",
+    "path": "skills/frc-01-financial-close-support-agent/SKILL.md",
+    "operating_class": "Delivery and operations",
+    "suggested_skill_ids": [
+      "SKL-034"
+    ],
+    "suggested_integration_ids": [
+      "INT-014",
+      "INT-002",
+      "INT-009"
+    ]
+  },
+  {
+    "role_id": "FRC-02",
+    "name": "Spend & Budget Insight Agent",
+    "section": "7. Finance, Risk, Legal, and Compliance Support",
+    "domain": "Finance, Risk, Legal, and Compliance Support",
+    "description": "Analyzes approved spend and budget data, identifies variance/drivers, and builds scenarios with explicit assumptions.",
+    "use_cases": "Department budget review; program-spend monitoring; cost trend analysis.",
+    "capability_text": "Budget variance; scenario analysis; dashboarding; trend explanation.",
+    "integrations": "ERP; planning tool; expense system; BI.",
+    "output": "Spend insight brief",
+    "gate": "no spending, transfer, or budget-authority action",
+    "handoff": "budget owner",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "frc-02-spend-and-budget-insight-agent",
+    "path": "skills/frc-02-spend-and-budget-insight-agent/SKILL.md",
+    "operating_class": "Analysis",
+    "suggested_skill_ids": [
+      "SKL-018"
+    ],
+    "suggested_integration_ids": [
+      "INT-009",
+      "INT-014"
+    ]
+  },
+  {
+    "role_id": "FRC-03",
+    "name": "Revenue Assurance Analyst",
+    "section": "7. Finance, Risk, Legal, and Compliance Support",
+    "domain": "Finance, Risk, Legal, and Compliance Support",
+    "description": "Reconciles operational, billing, usage, contract, and revenue reports to identify discrepancy patterns and evidence gaps.",
+    "use_cases": "Billing audit; usage reconciliation; revenue-leakage investigation.",
+    "capability_text": "Reconciliation; contract-to-bill matching; anomaly detection; case documentation.",
+    "integrations": "Billing system; CRM; ERP; data warehouse.",
+    "output": "Exception report and investigation packet",
+    "gate": "finance/legal owner decides adjustments and customer contact",
+    "handoff": "revenue operations/controller",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "frc-03-revenue-assurance-analyst",
+    "path": "skills/frc-03-revenue-assurance-analyst/SKILL.md",
+    "operating_class": "Evaluation",
+    "suggested_skill_ids": [
+      "SKL-034",
+      "SKL-036"
+    ],
+    "suggested_integration_ids": [
+      "INT-014",
+      "INT-009",
+      "INT-010"
+    ]
+  },
+  {
+    "role_id": "FRC-04",
+    "name": "Contract Intelligence Agent",
+    "section": "7. Finance, Risk, Legal, and Compliance Support",
+    "domain": "Finance, Risk, Legal, and Compliance Support",
+    "description": "Extracts structured terms, obligations, dates, clauses, and variance flags from agreements for review. It never interprets law or approves a contract.",
+    "use_cases": "Contract repository cleanup; renewal calendar; obligation tracking.",
+    "capability_text": "Clause extraction; document comparison; obligation tracking; redaction.",
+    "integrations": "Contract lifecycle management; document repository; calendar; approval workflow.",
+    "output": "Contract summary and issue list",
+    "gate": "legal counsel/contract owner validates interpretation and action",
+    "handoff": "legal/procurement owner",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "It never interprets law or approves a contract.",
+    "slug": "frc-04-contract-intelligence-agent",
+    "path": "skills/frc-04-contract-intelligence-agent/SKILL.md",
+    "operating_class": "Analysis",
+    "suggested_skill_ids": [
+      "SKL-033",
+      "SKL-011"
+    ],
+    "suggested_integration_ids": [
+      "INT-002",
+      "INT-003",
+      "INT-004",
+      "INT-015"
+    ]
+  },
+  {
+    "role_id": "FRC-05",
+    "name": "Compliance Monitoring Agent",
+    "section": "7. Finance, Risk, Legal, and Compliance Support",
+    "domain": "Finance, Risk, Legal, and Compliance Support",
+    "description": "Maps operational evidence to approved control requirements, detects missing evidence, and proposes remediation tracking.",
+    "use_cases": "Compliance readiness; policy attestations; control testing prep.",
+    "capability_text": "Control mapping; evidence review; exception classification; remediation tracking.",
+    "integrations": "GRC; policy repository; ticketing; audit log.",
+    "output": "Compliance evidence dashboard",
+    "gate": "no claim of compliance/certification without authorized review",
+    "handoff": "compliance officer",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "frc-05-compliance-monitoring-agent",
+    "path": "skills/frc-05-compliance-monitoring-agent/SKILL.md",
+    "operating_class": "Evaluation",
+    "suggested_skill_ids": [
+      "SKL-005",
+      "SKL-006"
+    ],
+    "suggested_integration_ids": [
+      "INT-011"
+    ]
+  },
+  {
+    "role_id": "FRC-06",
+    "name": "Enterprise Risk Analyst",
+    "section": "7. Finance, Risk, Legal, and Compliance Support",
+    "domain": "Finance, Risk, Legal, and Compliance Support",
+    "description": "Maintains risk registers, links indicators to risks, facilitates scenario/pre-mortem analysis, and tracks mitigations.",
+    "use_cases": "Quarterly risk review; project risk planning; vendor-risk summary.",
+    "capability_text": "Risk scoring; scenario analysis; KRIs; mitigation tracking.",
+    "integrations": "GRC; BI; project management; incident platform.",
+    "output": "Risk report and mitigation backlog",
+    "gate": "risk acceptance and appetite decisions remain human",
+    "handoff": "risk owner/committee",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "frc-06-enterprise-risk-analyst",
+    "path": "skills/frc-06-enterprise-risk-analyst/SKILL.md",
+    "operating_class": "Analysis",
+    "suggested_skill_ids": [
+      "SKL-018",
+      "SKL-035"
+    ],
+    "suggested_integration_ids": [
+      "INT-003",
+      "INT-009"
+    ]
+  },
+  {
+    "role_id": "FRC-07",
+    "name": "Privacy & Data-Use Triage Agent",
+    "section": "7. Finance, Risk, Legal, and Compliance Support",
+    "domain": "Finance, Risk, Legal, and Compliance Support",
+    "description": "Identifies likely personal or sensitive data in requests, maps them to approved handling rules, and prepares escalation packets.",
+    "use_cases": "Data-sharing request; DSAR intake support; vendor-data review.",
+    "capability_text": "Data classification; PII detection; purpose limitation mapping; redaction.",
+    "integrations": "Privacy-management system; data catalog; DMS; ticketing.",
+    "output": "Privacy triage note and data-handling checklist",
+    "gate": "no privacy/legal determination, data disclosure, or consent action",
+    "handoff": "privacy officer/legal counsel",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "frc-07-privacy-and-data-use-triage-agent",
+    "path": "skills/frc-07-privacy-and-data-use-triage-agent/SKILL.md",
+    "operating_class": "Evaluation",
+    "suggested_skill_ids": [
+      "SKL-011"
+    ],
+    "suggested_integration_ids": [
+      "INT-002",
+      "INT-011"
+    ]
+  },
+  {
+    "role_id": "FRC-08",
+    "name": "Fraud & Anomaly Triage Agent",
+    "section": "7. Finance, Risk, Legal, and Compliance Support",
+    "domain": "Finance, Risk, Legal, and Compliance Support",
+    "description": "Prioritizes unusual patterns for human investigation while preserving evidence, limiting exposure, and avoiding accusations.",
+    "use_cases": "Expense anomaly triage; account-abuse review; transaction monitoring support.",
+    "capability_text": "Anomaly detection; case prioritization; evidence preservation; bias-aware review.",
+    "integrations": "Fraud platform; ERP; CRM; case-management system.",
+    "output": "Investigation queue and evidence summary",
+    "gate": "no customer accusation, account restriction, or financial action without approved investigator process",
+    "handoff": "fraud/risk investigator",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "frc-08-fraud-and-anomaly-triage-agent",
+    "path": "skills/frc-08-fraud-and-anomaly-triage-agent/SKILL.md",
+    "operating_class": "Evaluation",
+    "suggested_skill_ids": [
+      "SKL-032",
+      "SKL-036"
+    ],
+    "suggested_integration_ids": [
+      "INT-010",
+      "INT-014"
+    ]
+  },
+  {
+    "role_id": "GKE-01",
+    "name": "Enterprise Workflow Orchestrator",
+    "section": "1. Governance, Knowledge, and Enterprise Control",
+    "domain": "Governance, Knowledge, and Enterprise Control",
+    "description": "Coordinates approved multi-role workflows, normalizes statuses, sequences dependencies, and routes approvals. It cannot override policy, approvals, or role boundaries.",
+    "use_cases": "RFP workflow; product-launch workback; incident coordination; monthly close preparation.",
+    "capability_text": "Work decomposition; dependency mapping; SLA monitoring; escalation routing.",
+    "integrations": "Project management; workflow engine; calendar; approval system.",
+    "output": "Work graph and decision queue",
+    "gate": "every blocked item has an owner and next decision",
+    "handoff": "named specialist or accountable human",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "It cannot override policy, approvals, or role boundaries.",
+    "slug": "gke-01-enterprise-workflow-orchestrator",
+    "path": "skills/gke-01-enterprise-workflow-orchestrator/SKILL.md",
+    "operating_class": "Control",
+    "suggested_skill_ids": [
+      "SKL-002",
+      "SKL-012"
+    ],
+    "suggested_integration_ids": [
+      "INT-003",
+      "INT-004"
+    ]
+  },
+  {
+    "role_id": "GKE-02",
+    "name": "Policy & Control Interpreter",
+    "section": "1. Governance, Knowledge, and Enterprise Control",
+    "domain": "Governance, Knowledge, and Enterprise Control",
+    "description": "Converts approved policies into usable controls, checklists, decision trees, and role-level instructions while flagging ambiguity or conflicts.",
+    "use_cases": "AI-usage policy rollout; procurement controls; records-retention guides.",
+    "capability_text": "Policy extraction; rule mapping; ambiguity detection; control testing.",
+    "integrations": "Policy repository; GRC system; knowledge base; version control.",
+    "output": "Control map and clarification queue",
+    "gate": "only approved policy versions used",
+    "handoff": "policy owner/legal or compliance review",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "gke-02-policy-and-control-interpreter",
+    "path": "skills/gke-02-policy-and-control-interpreter/SKILL.md",
+    "operating_class": "Control",
+    "suggested_skill_ids": [
+      "SKL-005"
+    ],
+    "suggested_integration_ids": [
+      "INT-001"
+    ]
+  },
+  {
+    "role_id": "GKE-03",
+    "name": "Approval & Delegation Steward",
+    "section": "1. Governance, Knowledge, and Enterprise Control",
+    "domain": "Governance, Knowledge, and Enterprise Control",
+    "description": "Maintains approval matrices, delegated-authority records, evidence of authorization, and expiry/revocation alerts.",
+    "use_cases": "Marketing approval routing; code-change approvals; spending request preparation.",
+    "capability_text": "Authority validation; RACI mapping; workflow routing; audit evidence packaging.",
+    "integrations": "Identity provider; approval platform; HRIS; GRC system.",
+    "output": "Approval record and exception report",
+    "gate": "no action marked approved without valid authority evidence",
+    "handoff": "authorized human approver",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "no action marked approved without valid authority evidence.",
+    "slug": "gke-03-approval-and-delegation-steward",
+    "path": "skills/gke-03-approval-and-delegation-steward/SKILL.md",
+    "operating_class": "Control",
+    "suggested_skill_ids": [
+      "SKL-004"
+    ],
+    "suggested_integration_ids": [
+      "INT-016"
+    ]
+  },
+  {
+    "role_id": "GKE-04",
+    "name": "Audit Evidence Curator",
+    "section": "1. Governance, Knowledge, and Enterprise Control",
+    "domain": "Governance, Knowledge, and Enterprise Control",
+    "description": "Collects, indexes, and packages evidence of process execution, controls, decisions, and exceptions. It does not certify compliance.",
+    "use_cases": "Internal audit prep; SOC evidence prep; vendor-review files; quality-system records.",
+    "capability_text": "Evidence collection; traceability mapping; redaction; retention labeling.",
+    "integrations": "GRC; document management; ticketing; log platform.",
+    "output": "Evidence binder and gap log",
+    "gate": "all items trace to source and timestamp",
+    "handoff": "audit/compliance owner",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "It does not certify compliance.",
+    "slug": "gke-04-audit-evidence-curator",
+    "path": "skills/gke-04-audit-evidence-curator/SKILL.md",
+    "operating_class": "Knowledge",
+    "suggested_skill_ids": [
+      "SKL-011"
+    ],
+    "suggested_integration_ids": [
+      "INT-002",
+      "INT-008",
+      "INT-011"
+    ]
+  },
+  {
+    "role_id": "GKE-05",
+    "name": "Knowledge Base Curator",
+    "section": "1. Governance, Knowledge, and Enterprise Control",
+    "domain": "Governance, Knowledge, and Enterprise Control",
+    "description": "Organizes approved organizational knowledge, resolves duplicates, tracks freshness, and retires superseded content.",
+    "use_cases": "Internal help center; operating playbooks; product knowledge base.",
+    "capability_text": "Taxonomy design; duplicate detection; freshness scoring; semantic retrieval tuning.",
+    "integrations": "Knowledge base; document management; search index; analytics.",
+    "output": "Curated knowledge updates and staleness backlog",
+    "gate": "ownership and review date recorded",
+    "handoff": "domain content owner",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "gke-05-knowledge-base-curator",
+    "path": "skills/gke-05-knowledge-base-curator/SKILL.md",
+    "operating_class": "Knowledge",
+    "suggested_skill_ids": [
+      "SKL-031",
+      "SKL-008",
+      "SKL-009"
+    ],
+    "suggested_integration_ids": [
+      "INT-001",
+      "INT-002"
+    ]
+  },
+  {
+    "role_id": "GKE-06",
+    "name": "Research & Source Verification Agent",
+    "section": "1. Governance, Knowledge, and Enterprise Control",
+    "domain": "Governance, Knowledge, and Enterprise Control",
+    "description": "Retrieves relevant source material, assesses provenance and currency, separates facts from assumptions, and creates a cited research packet.",
+    "use_cases": "Market research; policy brief; competitor scan; technical landscape review.",
+    "capability_text": "Search planning; source evaluation; claim extraction; citation packaging.",
+    "integrations": "Research databases; web retrieval; internal knowledge base; reference manager.",
+    "output": "Verified research packet",
+    "gate": "every material claim carries a source, date, and uncertainty label",
+    "handoff": "analyst, strategist, or decision owner",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "gke-06-research-and-source-verification-agent",
+    "path": "skills/gke-06-research-and-source-verification-agent/SKILL.md",
+    "operating_class": "Knowledge",
+    "suggested_skill_ids": [
+      "SKL-006",
+      "SKL-007"
+    ],
+    "suggested_integration_ids": [
+      "INT-001",
+      "INT-019"
+    ]
+  },
+  {
+    "role_id": "GKE-07",
+    "name": "Records & Retention Coordinator",
+    "section": "1. Governance, Knowledge, and Enterprise Control",
+    "domain": "Governance, Knowledge, and Enterprise Control",
+    "description": "Classifies records, applies retention labels, identifies records on legal/operational hold, and coordinates disposal review.",
+    "use_cases": "Document lifecycle management; project archive closeout; data cleanup support.",
+    "capability_text": "Record classification; retention mapping; hold detection; deletion-review preparation.",
+    "integrations": "DMS; archive; GRC; legal-hold system.",
+    "output": "Retention register and review queue",
+    "gate": "no deletion or hold release without authorized approval",
+    "handoff": "records/legal owner",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "no deletion or hold release without authorized approval.",
+    "slug": "gke-07-records-and-retention-coordinator",
+    "path": "skills/gke-07-records-and-retention-coordinator/SKILL.md",
+    "operating_class": "Knowledge",
+    "suggested_skill_ids": [
+      "SKL-004"
+    ],
+    "suggested_integration_ids": [
+      "INT-002",
+      "INT-005"
+    ]
+  },
+  {
+    "role_id": "HPE-01",
+    "name": "Care Coordination Support Agent",
+    "section": "9. Healthcare, Public Service, Education, and Casework Support",
+    "domain": "Healthcare, Public Service, Education, and Casework Support",
+    "description": "Organizes approved care-plan information, appointment logistics, patient education materials, and follow-up tasks for professional review.",
+    "use_cases": "Appointment preparation; discharge checklist support; referral coordination.",
+    "capability_text": "Schedule coordination; plain-language rewriting; task tracking; privacy-aware summaries.",
+    "integrations": "EHR read-only where authorized; scheduling; secure messaging; case management.",
+    "output": "Coordination packet and unresolved-task list",
+    "gate": "licensed clinician approves clinical content and decisions",
+    "handoff": "care coordinator/clinician",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "hpe-01-care-coordination-support-agent",
+    "path": "skills/hpe-01-care-coordination-support-agent/SKILL.md",
+    "operating_class": "Delivery and operations",
+    "suggested_skill_ids": [
+      "SKL-011",
+      "SKL-041"
+    ],
+    "suggested_integration_ids": [
+      "INT-004",
+      "INT-011",
+      "INT-017"
+    ]
+  },
+  {
+    "role_id": "HPE-02",
+    "name": "Clinical Documentation Assistant",
+    "section": "9. Healthcare, Public Service, Education, and Casework Support",
+    "domain": "Healthcare, Public Service, Education, and Casework Support",
+    "description": "Structures clinician-authored notes, extracts administrative fields, and prepares drafts using verified source content; it does not create clinical facts.",
+    "use_cases": "Visit-note drafting; coding-support preparation; handoff summaries.",
+    "capability_text": "Note structuring; terminology normalization; source attribution; privacy checks.",
+    "integrations": "EHR; dictation/transcript system; secure document store.",
+    "output": "Draft documentation with source trace",
+    "gate": "clinician reviews/signs all clinical documentation",
+    "handoff": "clinician/coder",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "Structures clinician-authored notes, extracts administrative fields, and prepares drafts using verified source content; it does not create clinical facts.",
+    "slug": "hpe-02-clinical-documentation-assistant",
+    "path": "skills/hpe-02-clinical-documentation-assistant/SKILL.md",
+    "operating_class": "Creation",
+    "suggested_skill_ids": [
+      "SKL-001",
+      "SKL-011"
+    ],
+    "suggested_integration_ids": [
+      "INT-017"
+    ]
+  },
+  {
+    "role_id": "HPE-03",
+    "name": "Patient/Member Education Writer",
+    "section": "9. Healthcare, Public Service, Education, and Casework Support",
+    "domain": "Healthcare, Public Service, Education, and Casework Support",
+    "description": "Produces plain-language, accessible, approved educational materials and question prompts, with directions to qualified care teams for personal guidance.",
+    "use_cases": "Procedure prep; benefits explanations; chronic-care education.",
+    "capability_text": "Plain-language writing; health-literacy adaptation; accessibility; multilingual adaptation.",
+    "integrations": "Approved content library; CMS; translation workflow; accessibility checker.",
+    "output": "Education draft and readability report",
+    "gate": "clinical/compliance content review before use",
+    "handoff": "clinical educator/compliance owner",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "hpe-03-patient-member-education-writer",
+    "path": "skills/hpe-03-patient-member-education-writer/SKILL.md",
+    "operating_class": "Creation",
+    "suggested_skill_ids": [
+      "SKL-020",
+      "SKL-023"
+    ],
+    "suggested_integration_ids": [
+      "INT-003",
+      "INT-012"
+    ]
+  },
+  {
+    "role_id": "HPE-04",
+    "name": "Public Program Research Agent",
+    "section": "9. Healthcare, Public Service, Education, and Casework Support",
+    "domain": "Healthcare, Public Service, Education, and Casework Support",
+    "description": "Synthesizes public-policy source material, program rules, service maps, and operational evidence for staff or public officials.",
+    "use_cases": "Program design research; grant landscape; constituent-service resource map.",
+    "capability_text": "Source verification; policy synthesis; service mapping; neutral writing.",
+    "integrations": "Government/public repositories; case-management knowledge base; GIS; DMS.",
+    "output": "Research brief and source map",
+    "gate": "officials determine policy, eligibility, and public action",
+    "handoff": "program/policy owner",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "hpe-04-public-program-research-agent",
+    "path": "skills/hpe-04-public-program-research-agent/SKILL.md",
+    "operating_class": "Knowledge",
+    "suggested_skill_ids": [
+      "SKL-005",
+      "SKL-006",
+      "SKL-020"
+    ],
+    "suggested_integration_ids": [
+      "INT-001",
+      "INT-002",
+      "INT-018"
+    ]
+  },
+  {
+    "role_id": "HPE-05",
+    "name": "Casework Intake & Routing Agent",
+    "section": "9. Healthcare, Public Service, Education, and Casework Support",
+    "domain": "Healthcare, Public Service, Education, and Casework Support",
+    "description": "Normalizes intake information, identifies missing items, detects urgency/mandatory escalation indicators, and routes cases under approved rules.",
+    "use_cases": "Social-service intake; student services; claims support; constituent casework.",
+    "capability_text": "Form extraction; case classification; urgency detection; privacy redaction.",
+    "integrations": "Case management; secure forms; CRM; scheduling.",
+    "output": "Intake summary and routing recommendation",
+    "gate": "human caseworker determines eligibility, outcomes, and sensitive communications",
+    "handoff": "caseworker/supervisor",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "human caseworker determines eligibility, outcomes, and sensitive communications.",
+    "slug": "hpe-05-casework-intake-and-routing-agent",
+    "path": "skills/hpe-05-casework-intake-and-routing-agent/SKILL.md",
+    "operating_class": "Delivery and operations",
+    "suggested_skill_ids": [
+      "SKL-001",
+      "SKL-011",
+      "SKL-012"
+    ],
+    "suggested_integration_ids": [
+      "INT-004",
+      "INT-010",
+      "INT-011"
+    ]
+  },
+  {
+    "role_id": "HPE-06",
+    "name": "Education Content & Assessment Agent",
+    "section": "9. Healthcare, Public Service, Education, and Casework Support",
+    "domain": "Healthcare, Public Service, Education, and Casework Support",
+    "description": "Creates curricula, study aids, formative questions, and feedback drafts aligned to approved learning goals and accessibility requirements.",
+    "use_cases": "Course modules; teacher support; workforce credential prep.",
+    "capability_text": "Instructional design; assessment design; rubric creation; accessibility.",
+    "integrations": "LMS; content repository; assessment platform; analytics.",
+    "output": "Learning asset and assessment draft",
+    "gate": "educator/SME validates content, grading policy, and final feedback",
+    "handoff": "educator/instructional lead",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "hpe-06-education-content-and-assessment-agent",
+    "path": "skills/hpe-06-education-content-and-assessment-agent/SKILL.md",
+    "operating_class": "Creation",
+    "suggested_skill_ids": [
+      "SKL-005",
+      "SKL-023",
+      "SKL-045"
+    ],
+    "suggested_integration_ids": []
+  },
+  {
+    "role_id": "OSP-01",
+    "name": "Operations Planning Agent",
+    "section": "6. Operations, Supply Chain, and Procurement Support",
+    "domain": "Operations, Supply Chain, and Procurement Support",
+    "description": "Models workload, capacity, constraints, dependencies, and service-level targets to prepare operating plans.",
+    "use_cases": "Service staffing plan; fulfillment planning; project resource plan.",
+    "capability_text": "Capacity modeling; process mapping; constraint analysis; scenario planning.",
+    "integrations": "ERP; workforce platform; project management; BI.",
+    "output": "Operating plan and exception scenarios",
+    "gate": "no staffing, spending, or contract decision authority",
+    "handoff": "operations leader",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "osp-01-operations-planning-agent",
+    "path": "skills/osp-01-operations-planning-agent/SKILL.md",
+    "operating_class": "Delivery and operations",
+    "suggested_skill_ids": [
+      "SKL-014",
+      "SKL-018",
+      "SKL-041"
+    ],
+    "suggested_integration_ids": [
+      "INT-003",
+      "INT-009",
+      "INT-014"
+    ]
+  },
+  {
+    "role_id": "OSP-02",
+    "name": "Supply & Demand Signal Analyst",
+    "section": "6. Operations, Supply Chain, and Procurement Support",
+    "domain": "Operations, Supply Chain, and Procurement Support",
+    "description": "Integrates approved demand, inventory, supplier, lead-time, and quality signals to identify shortages, excess, and risk.",
+    "use_cases": "Inventory review; S&OP support; replenishment recommendation.",
+    "capability_text": "Demand analysis; inventory modeling; exception detection; supplier risk tracking.",
+    "integrations": "ERP; warehouse system; planning platform; BI.",
+    "output": "Signal dashboard and issue brief",
+    "gate": "purchase commitments require authorized buyer",
+    "handoff": "planner/procurement lead",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "osp-02-supply-and-demand-signal-analyst",
+    "path": "skills/osp-02-supply-and-demand-signal-analyst/SKILL.md",
+    "operating_class": "Analysis",
+    "suggested_skill_ids": [
+      "SKL-018"
+    ],
+    "suggested_integration_ids": [
+      "INT-009",
+      "INT-014"
+    ]
+  },
+  {
+    "role_id": "OSP-03",
+    "name": "Procurement Research & Intake Agent",
+    "section": "6. Operations, Supply Chain, and Procurement Support",
+    "domain": "Operations, Supply Chain, and Procurement Support",
+    "description": "Structures requests, verifies required documentation, gathers approved supplier information, and prepares comparison packets.",
+    "use_cases": "Vendor intake; purchase request; RFP preparation; renewal review.",
+    "capability_text": "Intake normalization; supplier research; requirement comparison; policy checklist.",
+    "integrations": "Procurement suite; contract repository; vendor-management system; approval workflow.",
+    "output": "Procurement intake and comparison matrix",
+    "gate": "no supplier selection, negotiation, purchase, or signature",
+    "handoff": "authorized procurement owner",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "osp-03-procurement-research-and-intake-agent",
+    "path": "skills/osp-03-procurement-research-and-intake-agent/SKILL.md",
+    "operating_class": "Knowledge",
+    "suggested_skill_ids": [
+      "SKL-001",
+      "SKL-005",
+      "SKL-013"
+    ],
+    "suggested_integration_ids": [
+      "INT-003",
+      "INT-015"
+    ]
+  },
+  {
+    "role_id": "OSP-04",
+    "name": "Vendor Performance Monitor",
+    "section": "6. Operations, Supply Chain, and Procurement Support",
+    "domain": "Operations, Supply Chain, and Procurement Support",
+    "description": "Tracks service levels, quality, delivery, documentation, and risk signals against agreed measures; identifies exception trends.",
+    "use_cases": "Supplier scorecard; agency review; outsourced-service monitoring.",
+    "capability_text": "Scorecard analysis; SLA tracking; variance detection; evidence curation.",
+    "integrations": "Vendor-management; ERP; quality system; contract repository.",
+    "output": "Vendor performance report",
+    "gate": "no contractual interpretation or vendor sanctions without owner review",
+    "handoff": "vendor manager",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "osp-04-vendor-performance-monitor",
+    "path": "skills/osp-04-vendor-performance-monitor/SKILL.md",
+    "operating_class": "Evaluation",
+    "suggested_skill_ids": [
+      "SKL-045"
+    ],
+    "suggested_integration_ids": [
+      "INT-014",
+      "INT-015"
+    ]
+  },
+  {
+    "role_id": "OSP-05",
+    "name": "Process Excellence Agent",
+    "section": "6. Operations, Supply Chain, and Procurement Support",
+    "domain": "Operations, Supply Chain, and Procurement Support",
+    "description": "Maps current processes, identifies waste/rework/control failures, and proposes measurable, reversible improvements.",
+    "use_cases": "Order-to-cash mapping; service redesign; lean workshop support.",
+    "capability_text": "Process mining; value-stream mapping; root-cause analysis; SOP drafting.",
+    "integrations": "Process-mining; ticketing; ERP; knowledge base.",
+    "output": "Current/future-state map and improvement hypotheses",
+    "gate": "policy/process change requires process owner approval",
+    "handoff": "operational excellence lead",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "osp-05-process-excellence-agent",
+    "path": "skills/osp-05-process-excellence-agent/SKILL.md",
+    "operating_class": "Evaluation",
+    "suggested_skill_ids": [
+      "SKL-004",
+      "SKL-005",
+      "SKL-014",
+      "SKL-020"
+    ],
+    "suggested_integration_ids": [
+      "INT-001",
+      "INT-011",
+      "INT-014"
+    ]
+  },
+  {
+    "role_id": "OSP-06",
+    "name": "Quality Management Agent",
+    "section": "6. Operations, Supply Chain, and Procurement Support",
+    "domain": "Operations, Supply Chain, and Procurement Support",
+    "description": "Maintains inspection plans, nonconformance records, CAPA drafts, and traceability evidence for products or services.",
+    "use_cases": "Manufacturing quality; service-quality monitoring; corrective-action preparation.",
+    "capability_text": "Inspection analysis; CAPA drafting; root-cause facilitation; traceability mapping.",
+    "integrations": "QMS; ERP; document management; issue tracker.",
+    "output": "Quality report and CAPA draft",
+    "gate": "quality release and corrective-action closure require authorized quality owner",
+    "handoff": "quality manager",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "osp-06-quality-management-agent",
+    "path": "skills/osp-06-quality-management-agent/SKILL.md",
+    "operating_class": "Evaluation",
+    "suggested_skill_ids": [
+      "SKL-020",
+      "SKL-042"
+    ],
+    "suggested_integration_ids": [
+      "INT-002",
+      "INT-003",
+      "INT-014"
+    ]
+  },
+  {
+    "role_id": "OSP-07",
+    "name": "Field Service Coordinator",
+    "section": "6. Operations, Supply Chain, and Procurement Support",
+    "domain": "Operations, Supply Chain, and Procurement Support",
+    "description": "Prepares work orders, schedules resource options, compiles site history, and routes safety or customer-impacting exceptions.",
+    "use_cases": "Maintenance coordination; installation prep; facilities work scheduling.",
+    "capability_text": "Work-order planning; route optimization; checklist assembly; exception triage.",
+    "integrations": "FSM system; calendar; asset management; GIS/maps.",
+    "output": "Work-order packet and scheduling options",
+    "gate": "field execution and safety decisions remain with authorized personnel",
+    "handoff": "field supervisor/technician",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "osp-07-field-service-coordinator",
+    "path": "skills/osp-07-field-service-coordinator/SKILL.md",
+    "operating_class": "Delivery and operations",
+    "suggested_skill_ids": [
+      "SKL-041"
+    ],
+    "suggested_integration_ids": [
+      "INT-018",
+      "INT-004"
+    ]
+  },
+  {
+    "role_id": "OSP-08",
+    "name": "Asset & Maintenance Intelligence Agent",
+    "section": "6. Operations, Supply Chain, and Procurement Support",
+    "domain": "Operations, Supply Chain, and Procurement Support",
+    "description": "Monitors asset history, maintenance records, inspection signals, and failure patterns to prioritize review and preventive-work proposals.",
+    "use_cases": "Fleet maintenance; facilities planning; equipment reliability.",
+    "capability_text": "Maintenance-data analysis; failure-mode mapping; anomaly detection; work-order drafting.",
+    "integrations": "EAM/CMMS; IoT platform; BI; maintenance history.",
+    "output": "Asset-risk dashboard and proposed work orders",
+    "gate": "no safety-critical maintenance deferral or work authorization",
+    "handoff": "asset/maintenance owner",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "osp-08-asset-and-maintenance-intelligence-agent",
+    "path": "skills/osp-08-asset-and-maintenance-intelligence-agent/SKILL.md",
+    "operating_class": "Analysis",
+    "suggested_skill_ids": [
+      "SKL-020"
+    ],
+    "suggested_integration_ids": [
+      "INT-018",
+      "INT-009"
+    ]
+  },
+  {
+    "role_id": "OVL-01",
+    "name": "Insurance Claims Support Agent",
+    "section": "11. Sector Overlay Roles",
+    "domain": "Sector Overlay Roles",
+    "description": "Structures claims records, missing documents, and service/status communications. Attached to: Casework Intake; Financial Reconciliation; Document Coordinator.",
+    "use_cases": "Sector-specific augmentation of Casework Intake; Financial Reconciliation; Document Coordinator",
+    "capability_text": "Structures claims records, missing documents, and service/status communications.",
+    "integrations": "Claims platform; document store; case management.",
+    "output": "Structured sector-specific evidence, records, and review-ready recommendations",
+    "gate": "Does not determine coverage, liability, valuation, or payment",
+    "handoff": "Named accountable sector or domain owner",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": true,
+    "attached_to": "Casework Intake; Financial Reconciliation; Document Coordinator",
+    "boundary": "Does not determine coverage, liability, valuation, or payment.",
+    "slug": "ovl-01-insurance-claims-support-agent",
+    "path": "skills/ovl-01-insurance-claims-support-agent/SKILL.md",
+    "operating_class": "Delivery and operations",
+    "suggested_skill_ids": [],
+    "suggested_integration_ids": [
+      "INT-011"
+    ]
+  },
+  {
+    "role_id": "OVL-02",
+    "name": "Real Estate Transaction Coordinator",
+    "section": "11. Sector Overlay Roles",
+    "domain": "Sector Overlay Roles",
+    "description": "Organizes listing/transaction records, milestones, and communication drafts. Attached to: Project Controls; Document Coordinator; Customer Support.",
+    "use_cases": "Sector-specific augmentation of Project Controls; Document Coordinator; Customer Support",
+    "capability_text": "Organizes listing/transaction records, milestones, and communication drafts.",
+    "integrations": "CRM; transaction-management; e-signature; calendar.",
+    "output": "Structured sector-specific evidence, records, and review-ready recommendations",
+    "gate": "Does not give legal, tax, lending, or investment advice, or bind parties",
+    "handoff": "Named accountable sector or domain owner",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": true,
+    "attached_to": "Project Controls; Document Coordinator; Customer Support",
+    "boundary": "Does not give legal, tax, lending, or investment advice, or bind parties.",
+    "slug": "ovl-02-real-estate-transaction-coordinator",
+    "path": "skills/ovl-02-real-estate-transaction-coordinator/SKILL.md",
+    "operating_class": "Delivery and operations",
+    "suggested_skill_ids": [
+      "SKL-020"
+    ],
+    "suggested_integration_ids": [
+      "INT-002",
+      "INT-004",
+      "INT-010"
+    ]
+  },
+  {
+    "role_id": "OVL-03",
+    "name": "Legal Matter Operations Agent",
+    "section": "11. Sector Overlay Roles",
+    "domain": "Sector Overlay Roles",
+    "description": "Tracks matters, documents, deadlines, authorities, and discovery organization. Attached to: Contract Intelligence; Research; Records Coordinator.",
+    "use_cases": "Sector-specific augmentation of Contract Intelligence; Research; Records Coordinator",
+    "capability_text": "Tracks matters, documents, deadlines, authorities, and discovery organization.",
+    "integrations": "Matter management; DMS; e-discovery; calendar.",
+    "output": "Structured sector-specific evidence, records, and review-ready recommendations",
+    "gate": "Does not practice law, give legal advice, or file/serve documents",
+    "handoff": "Named accountable sector or domain owner",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": true,
+    "attached_to": "Contract Intelligence; Research; Records Coordinator",
+    "boundary": "Does not practice law, give legal advice, or file/serve documents.",
+    "slug": "ovl-03-legal-matter-operations-agent",
+    "path": "skills/ovl-03-legal-matter-operations-agent/SKILL.md",
+    "operating_class": "Delivery and operations",
+    "suggested_skill_ids": [],
+    "suggested_integration_ids": [
+      "INT-002",
+      "INT-004"
+    ]
+  },
+  {
+    "role_id": "OVL-04",
+    "name": "Insurance/Banking Compliance Evidence Agent",
+    "section": "11. Sector Overlay Roles",
+    "domain": "Sector Overlay Roles",
+    "description": "Maintains model/control evidence and examination packets. Attached to: Compliance Monitoring; Audit Curator; Data Steward.",
+    "use_cases": "Sector-specific augmentation of Compliance Monitoring; Audit Curator; Data Steward",
+    "capability_text": "Maintains model/control evidence and examination packets.",
+    "integrations": "GRC; data catalog; case management.",
+    "output": "Structured sector-specific evidence, records, and review-ready recommendations",
+    "gate": "Does not make regulated decisions or certify compliance",
+    "handoff": "Named accountable sector or domain owner",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": true,
+    "attached_to": "Compliance Monitoring; Audit Curator; Data Steward",
+    "boundary": "Does not make regulated decisions or certify compliance.",
+    "slug": "ovl-04-insurance-banking-compliance-evidence-agent",
+    "path": "skills/ovl-04-insurance-banking-compliance-evidence-agent/SKILL.md",
+    "operating_class": "Evaluation",
+    "suggested_skill_ids": [],
+    "suggested_integration_ids": [
+      "INT-011"
+    ]
+  },
+  {
+    "role_id": "OVL-05",
+    "name": "Hospitality Guest Experience Agent",
+    "section": "11. Sector Overlay Roles",
+    "domain": "Sector Overlay Roles",
+    "description": "Drafts concierge/support responses, amenity plans, and issue-routing summaries. Attached to: Support Triage; Campaign Planner; Field Coordinator.",
+    "use_cases": "Sector-specific augmentation of Support Triage; Campaign Planner; Field Coordinator",
+    "capability_text": "Drafts concierge/support responses, amenity plans, and issue-routing summaries.",
+    "integrations": "PMS; CRM; help desk; calendar.",
+    "output": "Structured sector-specific evidence, records, and review-ready recommendations",
+    "gate": "Does not confirm personal-sensitive information or execute financial adjustments without authorization",
+    "handoff": "Named accountable sector or domain owner",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": true,
+    "attached_to": "Support Triage; Campaign Planner; Field Coordinator",
+    "boundary": "Does not confirm personal-sensitive information or execute financial adjustments without authorization.",
+    "slug": "ovl-05-hospitality-guest-experience-agent",
+    "path": "skills/ovl-05-hospitality-guest-experience-agent/SKILL.md",
+    "operating_class": "Delivery and operations",
+    "suggested_skill_ids": [
+      "SKL-020"
+    ],
+    "suggested_integration_ids": [
+      "INT-004",
+      "INT-010",
+      "INT-011"
+    ]
+  },
+  {
+    "role_id": "OVL-06",
+    "name": "Retail Merchandising Insight Agent",
+    "section": "11. Sector Overlay Roles",
+    "domain": "Sector Overlay Roles",
+    "description": "Analyzes assortment, sell-through, promotion, and inventory signals. Attached to: Forecast; Supply & Demand; Campaign Planner.",
+    "use_cases": "Sector-specific augmentation of Forecast; Supply & Demand; Campaign Planner",
+    "capability_text": "Analyzes assortment, sell-through, promotion, and inventory signals.",
+    "integrations": "POS; ERP; planning; analytics.",
+    "output": "Structured sector-specific evidence, records, and review-ready recommendations",
+    "gate": "Does not set prices, order inventory, or launch promotions without owner approval",
+    "handoff": "Named accountable sector or domain owner",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": true,
+    "attached_to": "Forecast; Supply & Demand; Campaign Planner",
+    "boundary": "Does not set prices, order inventory, or launch promotions without owner approval.",
+    "slug": "ovl-06-retail-merchandising-insight-agent",
+    "path": "skills/ovl-06-retail-merchandising-insight-agent/SKILL.md",
+    "operating_class": "Analysis",
+    "suggested_skill_ids": [
+      "SKL-004"
+    ],
+    "suggested_integration_ids": [
+      "INT-014"
+    ]
+  },
+  {
+    "role_id": "OVL-07",
+    "name": "Media Rights Operations Agent",
+    "section": "11. Sector Overlay Roles",
+    "domain": "Sector Overlay Roles",
+    "description": "Tracks rights, restrictions, assets, registrations, and delivery evidence. Attached to: Rights Recorder; Contract Intelligence; Release Packager.",
+    "use_cases": "Sector-specific augmentation of Rights Recorder; Contract Intelligence; Release Packager",
+    "capability_text": "Tracks rights, restrictions, assets, registrations, and delivery evidence.",
+    "integrations": "Rights system; DAM; contract repository.",
+    "output": "Structured sector-specific evidence, records, and review-ready recommendations",
+    "gate": "Does not grant licenses or represent ownership without authority",
+    "handoff": "Named accountable sector or domain owner",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": true,
+    "attached_to": "Rights Recorder; Contract Intelligence; Release Packager",
+    "boundary": "Does not grant licenses or represent ownership without authority.",
+    "slug": "ovl-07-media-rights-operations-agent",
+    "path": "skills/ovl-07-media-rights-operations-agent/SKILL.md",
+    "operating_class": "Delivery and operations",
+    "suggested_skill_ids": [
+      "SKL-039"
+    ],
+    "suggested_integration_ids": [
+      "INT-015",
+      "INT-006"
+    ]
+  },
+  {
+    "role_id": "OVL-08",
+    "name": "Nonprofit Grant Operations Agent",
+    "section": "11. Sector Overlay Roles",
+    "domain": "Sector Overlay Roles",
+    "description": "Drafts funding narratives, reporting matrices, and evidence packets. Attached to: Proposal Agent; Research; Financial Close Support.",
+    "use_cases": "Sector-specific augmentation of Proposal Agent; Research; Financial Close Support",
+    "capability_text": "Drafts funding narratives, reporting matrices, and evidence packets.",
+    "integrations": "Grant management; CRM; DMS; accounting.",
+    "output": "Structured sector-specific evidence, records, and review-ready recommendations",
+    "gate": "Does not submit, certify, or make grant commitments without authorized signatory",
+    "handoff": "Named accountable sector or domain owner",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": true,
+    "attached_to": "Proposal Agent; Research; Financial Close Support",
+    "boundary": "Does not submit, certify, or make grant commitments without authorized signatory.",
+    "slug": "ovl-08-nonprofit-grant-operations-agent",
+    "path": "skills/ovl-08-nonprofit-grant-operations-agent/SKILL.md",
+    "operating_class": "Delivery and operations",
+    "suggested_skill_ids": [
+      "SKL-020"
+    ],
+    "suggested_integration_ids": [
+      "INT-002",
+      "INT-010",
+      "INT-014"
+    ]
+  },
+  {
+    "role_id": "PLE-01",
+    "name": "Workforce Planning Agent",
+    "section": "8. People, Learning, and Organizational Enablement",
+    "domain": "People, Learning, and Organizational Enablement",
+    "description": "Models role demand, capacity, skills supply, scenario assumptions, and operational dependencies for workforce planning.",
+    "use_cases": "Hiring plan support; capacity review; skills-gap mapping.",
+    "capability_text": "Workforce modeling; scenario analysis; skills taxonomy; demand forecasting.",
+    "integrations": "HRIS; planning platform; project management; BI.",
+    "output": "Workforce scenario pack",
+    "gate": "no hiring, termination, compensation, or employment decision",
+    "handoff": "people leader/finance owner",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "ple-01-workforce-planning-agent",
+    "path": "skills/ple-01-workforce-planning-agent/SKILL.md",
+    "operating_class": "Analysis",
+    "suggested_skill_ids": [
+      "SKL-018",
+      "SKL-009"
+    ],
+    "suggested_integration_ids": [
+      "INT-003",
+      "INT-009",
+      "INT-016"
+    ]
+  },
+  {
+    "role_id": "PLE-02",
+    "name": "Talent Sourcing Research Agent",
+    "section": "8. People, Learning, and Organizational Enablement",
+    "domain": "People, Learning, and Organizational Enablement",
+    "description": "Identifies public candidate leads and skill signals against approved criteria, prepares outreach drafts, and tracks consent/handling requirements.",
+    "use_cases": "Recruiter research; talent-pool mapping; role market scan.",
+    "capability_text": "Boolean research; skills matching; bias-aware screening support; outreach drafting.",
+    "integrations": "ATS; approved sourcing tools; CRM; privacy system.",
+    "output": "Candidate research brief",
+    "gate": "human recruiter makes all evaluation, contact, and employment decisions",
+    "handoff": "recruiter/hiring manager",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "ple-02-talent-sourcing-research-agent",
+    "path": "skills/ple-02-talent-sourcing-research-agent/SKILL.md",
+    "operating_class": "Knowledge",
+    "suggested_skill_ids": [
+      "SKL-020",
+      "SKL-032"
+    ],
+    "suggested_integration_ids": [
+      "INT-010"
+    ]
+  },
+  {
+    "role_id": "PLE-03",
+    "name": "Learning Experience Designer",
+    "section": "8. People, Learning, and Organizational Enablement",
+    "domain": "People, Learning, and Organizational Enablement",
+    "description": "Converts competency goals and approved content into learning paths, lesson plans, practice activities, assessments, and accessibility needs.",
+    "use_cases": "Onboarding; compliance training; manager enablement; technical academies.",
+    "capability_text": "Curriculum design; assessment authoring; instructional design; accessibility.",
+    "integrations": "LMS; knowledge base; content repository; survey tool.",
+    "output": "Learning module and assessment plan",
+    "gate": "subject-matter owner verifies content and policy",
+    "handoff": "L&D owner/SME",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "ple-03-learning-experience-designer",
+    "path": "skills/ple-03-learning-experience-designer/SKILL.md",
+    "operating_class": "Creation",
+    "suggested_skill_ids": [
+      "SKL-005",
+      "SKL-023"
+    ],
+    "suggested_integration_ids": [
+      "INT-001"
+    ]
+  },
+  {
+    "role_id": "PLE-04",
+    "name": "Performance Enablement Coach",
+    "section": "8. People, Learning, and Organizational Enablement",
+    "domain": "People, Learning, and Organizational Enablement",
+    "description": "Prepares role-specific coaching prompts, practice simulations, goal templates, and manager briefing materials from approved frameworks.",
+    "use_cases": "Sales enablement; manager coaching; support-agent training.",
+    "capability_text": "Coaching design; scenario simulation; rubric generation; feedback synthesis.",
+    "integrations": "LMS; CRM; knowledge base; performance platform.",
+    "output": "Coaching toolkit",
+    "gate": "no individual performance rating or employment recommendation",
+    "handoff": "manager/L&D lead",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "ple-04-performance-enablement-coach",
+    "path": "skills/ple-04-performance-enablement-coach/SKILL.md",
+    "operating_class": "Analysis",
+    "suggested_skill_ids": [
+      "SKL-018",
+      "SKL-045"
+    ],
+    "suggested_integration_ids": [
+      "INT-001",
+      "INT-010"
+    ]
+  },
+  {
+    "role_id": "PLE-05",
+    "name": "Employee Service Triage Agent",
+    "section": "8. People, Learning, and Organizational Enablement",
+    "domain": "People, Learning, and Organizational Enablement",
+    "description": "Classifies employee-service requests, retrieves approved policy guidance, and routes sensitive, benefits, legal, or personal matters.",
+    "use_cases": "HR help desk; onboarding questions; policy-navigation support.",
+    "capability_text": "Intent classification; retrieval; empathy-safe drafting; privacy handling.",
+    "integrations": "HRIS; employee help desk; knowledge base; case management.",
+    "output": "Guided answer or routed case",
+    "gate": "no employment, benefits, medical, legal, or disciplinary determination",
+    "handoff": "HR specialist",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "ple-05-employee-service-triage-agent",
+    "path": "skills/ple-05-employee-service-triage-agent/SKILL.md",
+    "operating_class": "Evaluation",
+    "suggested_skill_ids": [
+      "SKL-008",
+      "SKL-011",
+      "SKL-020"
+    ],
+    "suggested_integration_ids": [
+      "INT-011",
+      "INT-001",
+      "INT-016"
+    ]
+  },
+  {
+    "role_id": "PLE-06",
+    "name": "Organizational Knowledge Facilitator",
+    "section": "8. People, Learning, and Organizational Enablement",
+    "domain": "People, Learning, and Organizational Enablement",
+    "description": "Captures approved lessons learned, playbooks, practices, and reusable expertise from teams without exposing confidential individual information.",
+    "use_cases": "Postmortems; onboarding wiki; community of practice; project closeout.",
+    "capability_text": "Retrospective facilitation; knowledge capture; anonymization; taxonomy tagging.",
+    "integrations": "Knowledge base; project management; document repository; collaboration suite.",
+    "output": "Lessons-learned record and reusable playbook",
+    "gate": "contributors/owners confirm sensitive content and final publication",
+    "handoff": "knowledge owner",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "ple-06-organizational-knowledge-facilitator",
+    "path": "skills/ple-06-organizational-knowledge-facilitator/SKILL.md",
+    "operating_class": "Knowledge",
+    "suggested_skill_ids": [
+      "SKL-009",
+      "SKL-012"
+    ],
+    "suggested_integration_ids": [
+      "INT-001",
+      "INT-002",
+      "INT-003",
+      "INT-020"
+    ]
+  },
+  {
+    "role_id": "PXD-01",
+    "name": "Product Discovery Agent",
+    "section": "2. Product, Experience, and Design",
+    "domain": "Product, Experience, and Design",
+    "description": "Synthesizes approved research, customer evidence, market context, and business goals into opportunity statements and assumptions to test.",
+    "use_cases": "New-product discovery; feature opportunity mapping; venture exploration.",
+    "capability_text": "Problem framing; interview synthesis; opportunity scoring; assumption mapping.",
+    "integrations": "Product repository; research store; CRM insights; analytics.",
+    "output": "Opportunity brief and assumption backlog",
+    "gate": "separates evidence from hypotheses",
+    "handoff": "product manager and researcher",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "pxd-01-product-discovery-agent",
+    "path": "skills/pxd-01-product-discovery-agent/SKILL.md",
+    "operating_class": "Analysis",
+    "suggested_skill_ids": [
+      "SKL-015",
+      "SKL-016"
+    ],
+    "suggested_integration_ids": [
+      "INT-010"
+    ]
+  },
+  {
+    "role_id": "PXD-02",
+    "name": "Product Requirements Agent",
+    "section": "2. Product, Experience, and Design",
+    "domain": "Product, Experience, and Design",
+    "description": "Converts approved direction into testable requirements, user stories, acceptance criteria, dependencies, and nonfunctional constraints.",
+    "use_cases": "Feature specification; integration requirements; release scope.",
+    "capability_text": "Requirement extraction; acceptance-criteria authoring; ambiguity detection; traceability.",
+    "integrations": "Product management; documentation; architecture repository; issue tracker.",
+    "output": "Versioned requirements package",
+    "gate": "criteria are testable and owner-reviewed",
+    "handoff": "design, engineering, QA",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "pxd-02-product-requirements-agent",
+    "path": "skills/pxd-02-product-requirements-agent/SKILL.md",
+    "operating_class": "Creation",
+    "suggested_skill_ids": [
+      "SKL-013"
+    ],
+    "suggested_integration_ids": [
+      "INT-003"
+    ]
+  },
+  {
+    "role_id": "PXD-03",
+    "name": "User Research Synthesizer",
+    "section": "2. Product, Experience, and Design",
+    "domain": "Product, Experience, and Design",
+    "description": "Analyzes research artifacts to identify themes, journeys, pain points, unmet needs, and evidence gaps without fabricating user claims.",
+    "use_cases": "Interview synthesis; usability-study analysis; voice-of-customer summaries.",
+    "capability_text": "Qualitative coding; journey mapping; consent-aware redaction; quote verification.",
+    "integrations": "Research repository; survey tool; CRM/support analytics; knowledge base.",
+    "output": "Research synthesis and evidence map",
+    "gate": "findings trace to source participants or data",
+    "handoff": "product/design owner",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "pxd-03-user-research-synthesizer",
+    "path": "skills/pxd-03-user-research-synthesizer/SKILL.md",
+    "operating_class": "Analysis",
+    "suggested_skill_ids": [
+      "SKL-011",
+      "SKL-016"
+    ],
+    "suggested_integration_ids": [
+      "INT-001",
+      "INT-010",
+      "INT-011"
+    ]
+  },
+  {
+    "role_id": "PXD-04",
+    "name": "UX Flow Architect",
+    "section": "2. Product, Experience, and Design",
+    "domain": "Product, Experience, and Design",
+    "description": "Designs task flows, information architecture, interaction states, edge cases, and content dependencies for a validated product problem.",
+    "use_cases": "Onboarding flow; checkout redesign; internal tool workflow.",
+    "capability_text": "Journey design; state modeling; accessibility-first flow design; edge-case analysis.",
+    "integrations": "Design tool; product repository; analytics; accessibility checklist.",
+    "output": "Flow map and annotated wireframe brief",
+    "gate": "primary, error, empty, and recovery states included",
+    "handoff": "UI designer and product manager",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "pxd-04-ux-flow-architect",
+    "path": "skills/pxd-04-ux-flow-architect/SKILL.md",
+    "operating_class": "Creation",
+    "suggested_skill_ids": [
+      "SKL-023"
+    ],
+    "suggested_integration_ids": [
+      "INT-006"
+    ]
+  },
+  {
+    "role_id": "PXD-05",
+    "name": "UI System Designer",
+    "section": "2. Product, Experience, and Design",
+    "domain": "Product, Experience, and Design",
+    "description": "Produces component specifications, tokens, responsive patterns, accessibility annotations, and visual-consistency guidance.",
+    "use_cases": "Design-system expansion; application screens; brand refresh.",
+    "capability_text": "Component design; tokenization; responsive layout; accessibility annotation.",
+    "integrations": "Design system; design tool; component library; issue tracker.",
+    "output": "UI specification and component mapping",
+    "gate": "conforms to approved system/accessibility standards",
+    "handoff": "frontend engineer and design QA",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "pxd-05-ui-system-designer",
+    "path": "skills/pxd-05-ui-system-designer/SKILL.md",
+    "operating_class": "Creation",
+    "suggested_skill_ids": [
+      "SKL-023"
+    ],
+    "suggested_integration_ids": [
+      "INT-003",
+      "INT-006"
+    ]
+  },
+  {
+    "role_id": "PXD-06",
+    "name": "Prototype & Experiment Agent",
+    "section": "2. Product, Experience, and Design",
+    "domain": "Product, Experience, and Design",
+    "description": "Builds low-risk prototypes, defines experiment instrumentation, and prepares learning plans. It does not deploy public experiments without approval.",
+    "use_cases": "Concept tests; landing-page experiments; usability prototypes.",
+    "capability_text": "Prototyping; experiment design; event schema planning; mock-data handling.",
+    "integrations": "Design/prototype tool; analytics sandbox; feature-flag system; repository.",
+    "output": "Prototype and experiment plan",
+    "gate": "hypothesis, success metric, and rollback defined",
+    "handoff": "product owner/engineering",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "It does not deploy public experiments without approval.",
+    "slug": "pxd-06-prototype-and-experiment-agent",
+    "path": "skills/pxd-06-prototype-and-experiment-agent/SKILL.md",
+    "operating_class": "Creation",
+    "suggested_skill_ids": [
+      "SKL-019",
+      "SKL-031"
+    ],
+    "suggested_integration_ids": []
+  },
+  {
+    "role_id": "PXD-07",
+    "name": "Experience QA Agent",
+    "section": "2. Product, Experience, and Design",
+    "domain": "Product, Experience, and Design",
+    "description": "Validates flows against requirements, UX heuristics, accessibility criteria, content states, and design-system rules.",
+    "use_cases": "Pre-release UX review; accessibility triage; design regression QA.",
+    "capability_text": "Usability inspection; WCAG-oriented checks; visual regression; issue reporting.",
+    "integrations": "Test-management; design tool; browser test suite; issue tracker.",
+    "output": "UX QA scorecard and defect list",
+    "gate": "critical journey and accessibility defects resolved or explicitly accepted",
+    "handoff": "product/engineering owner",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "pxd-07-experience-qa-agent",
+    "path": "skills/pxd-07-experience-qa-agent/SKILL.md",
+    "operating_class": "Evaluation",
+    "suggested_skill_ids": [
+      "SKL-023",
+      "SKL-024",
+      "SKL-028"
+    ],
+    "suggested_integration_ids": [
+      "INT-003",
+      "INT-006"
+    ]
+  },
+  {
+    "role_id": "RCP-01",
+    "name": "Market & Segment Intelligence Agent",
+    "section": "5. Revenue, Customer, and Partnership Operations",
+    "domain": "Revenue, Customer, and Partnership Operations",
+    "description": "Profiles market segments, buyer needs, competitor context, and demand signals using verified sources and approved data.",
+    "use_cases": "Go-to-market planning; ICP refinement; territory research.",
+    "capability_text": "Market research; segmentation; competitor analysis; source verification.",
+    "integrations": "CRM; product analytics; research databases; BI.",
+    "output": "Segment brief and evidence matrix",
+    "gate": "no unsupported market-size or competitor claims",
+    "handoff": "marketing/sales strategy owner",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "rcp-01-market-and-segment-intelligence-agent",
+    "path": "skills/rcp-01-market-and-segment-intelligence-agent/SKILL.md",
+    "operating_class": "Analysis",
+    "suggested_skill_ids": [
+      "SKL-006",
+      "SKL-017"
+    ],
+    "suggested_integration_ids": [
+      "INT-009",
+      "INT-010"
+    ]
+  },
+  {
+    "role_id": "RCP-02",
+    "name": "Campaign Planner Agent",
+    "section": "5. Revenue, Customer, and Partnership Operations",
+    "domain": "Revenue, Customer, and Partnership Operations",
+    "description": "Converts strategy into audiences, messages, content requirements, channel hypotheses, timing, measurement, and approval points.",
+    "use_cases": "Product launch; demand-gen campaign; lifecycle campaign.",
+    "capability_text": "Campaign architecture; message hierarchy; KPI planning; experiment design.",
+    "integrations": "Marketing automation; CRM; DAM; analytics; project management.",
+    "output": "Campaign plan and measurement framework",
+    "gate": "claims, targeting, spend, and public publishing require approved owners",
+    "handoff": "marketing lead",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "rcp-02-campaign-planner-agent",
+    "path": "skills/rcp-02-campaign-planner-agent/SKILL.md",
+    "operating_class": "Creation",
+    "suggested_skill_ids": [
+      "SKL-019",
+      "SKL-020",
+      "SKL-037"
+    ],
+    "suggested_integration_ids": [
+      "INT-003",
+      "INT-006",
+      "INT-010",
+      "INT-012"
+    ]
+  },
+  {
+    "role_id": "RCP-03",
+    "name": "Sales Research & Account Briefing Agent",
+    "section": "5. Revenue, Customer, and Partnership Operations",
+    "domain": "Revenue, Customer, and Partnership Operations",
+    "description": "Prepares verified account, stakeholder, opportunity, and relationship-context briefs for sales teams.",
+    "use_cases": "Account planning; call prep; renewal research; ABM.",
+    "capability_text": "Account research; stakeholder mapping; CRM synthesis; personalization drafting.",
+    "integrations": "CRM; sales intelligence; email/calendar read-only; knowledge base.",
+    "output": "Account brief and discovery questions",
+    "gate": "no sensitive inference, external send, pricing promise, or contact action",
+    "handoff": "account executive",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "rcp-03-sales-research-and-account-briefing-agent",
+    "path": "skills/rcp-03-sales-research-and-account-briefing-agent/SKILL.md",
+    "operating_class": "Analysis",
+    "suggested_skill_ids": [
+      "SKL-020"
+    ],
+    "suggested_integration_ids": [
+      "INT-001",
+      "INT-004",
+      "INT-010",
+      "INT-020"
+    ]
+  },
+  {
+    "role_id": "RCP-04",
+    "name": "Proposal & RFP Response Agent",
+    "section": "5. Revenue, Customer, and Partnership Operations",
+    "domain": "Revenue, Customer, and Partnership Operations",
+    "description": "Drafts response sections, compliance matrices, evidence requests, and reusable content from approved materials.",
+    "use_cases": "RFP/RFI; security questionnaire; statement-of-work draft support.",
+    "capability_text": "Requirement extraction; response drafting; evidence mapping; redaction.",
+    "integrations": "Content library; CRM; document management; approval workflow.",
+    "output": "Draft response and compliance matrix",
+    "gate": "legal, commercial, security, and executive approvals before submission",
+    "handoff": "proposal manager",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "rcp-04-proposal-and-rfp-response-agent",
+    "path": "skills/rcp-04-proposal-and-rfp-response-agent/SKILL.md",
+    "operating_class": "Creation",
+    "suggested_skill_ids": [
+      "SKL-011",
+      "SKL-013",
+      "SKL-020"
+    ],
+    "suggested_integration_ids": [
+      "INT-002",
+      "INT-003",
+      "INT-010"
+    ]
+  },
+  {
+    "role_id": "RCP-05",
+    "name": "Customer Success Insight Agent",
+    "section": "5. Revenue, Customer, and Partnership Operations",
+    "domain": "Revenue, Customer, and Partnership Operations",
+    "description": "Synthesizes adoption, support, renewal, usage, and stakeholder signals into health narratives and suggested interventions.",
+    "use_cases": "QBR preparation; churn-risk review; onboarding progress.",
+    "capability_text": "Health scoring; usage analysis; meeting-summary synthesis; action planning.",
+    "integrations": "CRM; product analytics; support platform; calendar.",
+    "output": "Account-health brief and action proposals",
+    "gate": "humans approve commitments, concessions, and sensitive customer communications",
+    "handoff": "CSM/account owner",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "humans approve commitments, concessions, and sensitive customer communications.",
+    "slug": "rcp-05-customer-success-insight-agent",
+    "path": "skills/rcp-05-customer-success-insight-agent/SKILL.md",
+    "operating_class": "Analysis",
+    "suggested_skill_ids": [
+      "SKL-020",
+      "SKL-036",
+      "SKL-044"
+    ],
+    "suggested_integration_ids": [
+      "INT-004",
+      "INT-010",
+      "INT-011"
+    ]
+  },
+  {
+    "role_id": "RCP-06",
+    "name": "Support Triage & Knowledge Agent",
+    "section": "5. Revenue, Customer, and Partnership Operations",
+    "domain": "Revenue, Customer, and Partnership Operations",
+    "description": "Classifies tickets, retrieves approved troubleshooting guidance, drafts responses, identifies knowledge gaps, and escalates sensitive cases.",
+    "use_cases": "Help-desk support; developer support; order-status inquiries.",
+    "capability_text": "Issue classification; retrieval; response drafting; PII redaction; escalation detection.",
+    "integrations": "Help desk; knowledge base; CRM; incident platform.",
+    "output": "Suggested resolution and routed ticket",
+    "gate": "no unsupported fix, account change, refund, legal/medical advice, or sensitive disclosure",
+    "handoff": "support agent/specialist",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "rcp-06-support-triage-and-knowledge-agent",
+    "path": "skills/rcp-06-support-triage-and-knowledge-agent/SKILL.md",
+    "operating_class": "Evaluation",
+    "suggested_skill_ids": [
+      "SKL-011",
+      "SKL-008",
+      "SKL-012",
+      "SKL-020",
+      "SKL-036"
+    ],
+    "suggested_integration_ids": [
+      "INT-001",
+      "INT-010",
+      "INT-011"
+    ]
+  },
+  {
+    "role_id": "RCP-07",
+    "name": "Voice of Customer Analyst",
+    "section": "5. Revenue, Customer, and Partnership Operations",
+    "domain": "Revenue, Customer, and Partnership Operations",
+    "description": "Aggregates feedback across approved sources into recurring themes, impact, severity, and evidence-backed product or service implications.",
+    "use_cases": "Feedback review; NPS analysis; review-monitoring summary.",
+    "capability_text": "Theme extraction; sentiment analysis; quote validation; privacy-aware summarization.",
+    "integrations": "Survey tool; CRM; support platform; product feedback system.",
+    "output": "VOC report and opportunity backlog",
+    "gate": "preserves context and distinguishes anecdotes from prevalence",
+    "handoff": "product/customer leader",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "rcp-07-voice-of-customer-analyst",
+    "path": "skills/rcp-07-voice-of-customer-analyst/SKILL.md",
+    "operating_class": "Analysis",
+    "suggested_skill_ids": [
+      "SKL-016",
+      "SKL-011",
+      "SKL-036"
+    ],
+    "suggested_integration_ids": [
+      "INT-010",
+      "INT-011"
+    ]
+  },
+  {
+    "role_id": "RCP-08",
+    "name": "Partner Ecosystem Research Agent",
+    "section": "5. Revenue, Customer, and Partnership Operations",
+    "domain": "Revenue, Customer, and Partnership Operations",
+    "description": "Identifies potential partners, evaluates strategic fit, maps integrations and conflicts, and drafts an outreach rationale without contacting parties.",
+    "use_cases": "Technology partnership discovery; channel mapping; vendor landscape.",
+    "capability_text": "Partner research; fit scoring; overlap analysis; risk screening.",
+    "integrations": "Partner CRM; research database; product catalog; risk register.",
+    "output": "Partner shortlist and rationale",
+    "gate": "no outreach, commitment, or deal term",
+    "handoff": "partnerships owner",
+    "source_file": "02_CROSS_INDUSTRY_ROLE_CATALOG.md",
+    "overlay": false,
+    "attached_to": "",
+    "boundary": "",
+    "slug": "rcp-08-partner-ecosystem-research-agent",
+    "path": "skills/rcp-08-partner-ecosystem-research-agent/SKILL.md",
+    "operating_class": "Analysis",
+    "suggested_skill_ids": [
+      "SKL-015"
+    ],
+    "suggested_integration_ids": [
+      "INT-010",
+      "INT-019"
+    ]
+  }
+]

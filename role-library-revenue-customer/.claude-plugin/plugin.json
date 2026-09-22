@@ -1,0 +1,6 @@
+{
+  "name": "role-library-revenue-customer",
+  "description": "8 bounded agent roles for Revenue, customer, and partnership operations (RCP family).",
+  "version": "0.1.0",
+  "author": "FullStackAssets"
+}

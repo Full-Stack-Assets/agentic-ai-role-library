@@ -1,0 +1,71 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "agentic-ai-role-library",
+  "description": "The Agentic AI Role Library (196 entries) as Claude Code plugins: 17 domain packs, 45 reusable capabilities, 20 integration definitions, and a natural-language router.",
+  "version": "0.1.0",
+  "author": {
+    "name": "FullStackAssets"
+  },
+  "plugins": [
+    {
+      "name": "role-library-built-environment"
+    },
+    {
+      "name": "role-library-capabilities"
+    },
+    {
+      "name": "role-library-content-marketing"
+    },
+    {
+      "name": "role-library-control-canon"
+    },
+    {
+      "name": "role-library-data-analytics"
+    },
+    {
+      "name": "role-library-engineering"
+    },
+    {
+      "name": "role-library-finance-risk"
+    },
+    {
+      "name": "role-library-governance"
+    },
+    {
+      "name": "role-library-healthcare-public"
+    },
+    {
+      "name": "role-library-integrations"
+    },
+    {
+      "name": "role-library-knowledge-rights"
+    },
+    {
+      "name": "role-library-music-audio"
+    },
+    {
+      "name": "role-library-operations"
+    },
+    {
+      "name": "role-library-people-learning"
+    },
+    {
+      "name": "role-library-product-design"
+    },
+    {
+      "name": "role-library-release-distribution"
+    },
+    {
+      "name": "role-library-revenue-customer"
+    },
+    {
+      "name": "role-library-router"
+    },
+    {
+      "name": "role-library-sector-overlays"
+    },
+    {
+      "name": "role-library-visual-video"
+    }
+  ]
+}

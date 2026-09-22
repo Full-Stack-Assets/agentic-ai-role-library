@@ -1,0 +1,452 @@
+[
+  {
+    "skill_id": "SKL-001",
+    "name": "Structured Intake Normalization",
+    "what_it_does": "Converts forms, briefs, tickets, and unstructured requests into a validated schema; flags missing mandatory data.",
+    "common_roles": "Intake, procurement, support, casework, release packaging.",
+    "minimum_fixture": "Incomplete/ambiguous intake with expected missing-field and escalation outputs.",
+    "slug": "skl-001-structured-intake-normalization",
+    "path": "skills/skl-001-structured-intake-normalization/SKILL.md",
+    "category": "Operations"
+  },
+  {
+    "skill_id": "SKL-002",
+    "name": "Task Decomposition & Dependency Mapping",
+    "what_it_does": "Breaks approved work into bounded tasks, dependencies, owners, gates, and deadlines.",
+    "common_roles": "Orchestrators, release managers, project controls.",
+    "minimum_fixture": "Multi-step request with a deliberate dependency conflict.",
+    "slug": "skl-002-task-decomposition-and-dependency-mapping",
+    "path": "skills/skl-002-task-decomposition-and-dependency-mapping/SKILL.md",
+    "category": "Operations"
+  },
+  {
+    "skill_id": "SKL-003",
+    "name": "Status & Handoff Validation",
+    "what_it_does": "Validates lifecycle state, output completeness, provenance, next owner, and blockers before handoff.",
+    "common_roles": "Orchestrators, QA, archivists, release packagers.",
+    "minimum_fixture": "Handoff with missing owner/provenance and expected block.",
+    "slug": "skl-003-status-and-handoff-validation",
+    "path": "skills/skl-003-status-and-handoff-validation/SKILL.md",
+    "category": "Operations"
+  },
+  {
+    "skill_id": "SKL-004",
+    "name": "Approval Routing",
+    "what_it_does": "Selects the correct named approver from an approved authority matrix; never fabricates authority.",
+    "common_roles": "Collaboration, approval, release, procurement.",
+    "minimum_fixture": "Expired and delegated approver records.",
+    "slug": "skl-004-approval-routing",
+    "path": "skills/skl-004-approval-routing/SKILL.md",
+    "category": "Operations"
+  },
+  {
+    "skill_id": "SKL-005",
+    "name": "Policy-to-Control Mapping",
+    "what_it_does": "Extracts operational controls, prohibitions, exceptions, and review triggers from approved policy texts.",
+    "common_roles": "Compliance, policy, operations, privacy.",
+    "minimum_fixture": "Policy with ambiguous exception requiring escalation.",
+    "slug": "skl-005-policy-to-control-mapping",
+    "path": "skills/skl-005-policy-to-control-mapping/SKILL.md",
+    "category": "Safety"
+  },
+  {
+    "skill_id": "SKL-006",
+    "name": "Claim Extraction & Source Citation",
+    "what_it_does": "Extracts material factual claims and attaches traceable sources, dates, context, and uncertainty.",
+    "common_roles": "Research, PR, RFP, policy, science.",
+    "minimum_fixture": "Mixed-quality source bundle containing unsupported claims.",
+    "slug": "skl-006-claim-extraction-and-source-citation",
+    "path": "skills/skl-006-claim-extraction-and-source-citation/SKILL.md",
+    "category": "Retrieval"
+  },
+  {
+    "skill_id": "SKL-007",
+    "name": "Source Quality Assessment",
+    "what_it_does": "Assesses authority, primary/secondary status, recency, relevance, conflict, and provenance of evidence.",
+    "common_roles": "Research, legal support, market intelligence.",
+    "minimum_fixture": "Contradictory sources with stale/non-authoritative records.",
+    "slug": "skl-007-source-quality-assessment",
+    "path": "skills/skl-007-source-quality-assessment/SKILL.md",
+    "category": "Retrieval"
+  },
+  {
+    "skill_id": "SKL-008",
+    "name": "Knowledge Retrieval & Grounded Synthesis",
+    "what_it_does": "Retrieves approved information and synthesizes it without inventing unsupported facts; exposes source gaps.",
+    "common_roles": "Support, research, documentation, healthcare education.",
+    "minimum_fixture": "Query with no authoritative answer and expected abstention/escalation.",
+    "slug": "skl-008-knowledge-retrieval-and-grounded-synthesis",
+    "path": "skills/skl-008-knowledge-retrieval-and-grounded-synthesis/SKILL.md",
+    "category": "Retrieval"
+  },
+  {
+    "skill_id": "SKL-009",
+    "name": "Taxonomy & Metadata Tagging",
+    "what_it_does": "Applies controlled vocabularies, entity IDs, relationships, classification labels, and data-quality flags.",
+    "common_roles": "Archivists, data stewards, asset managers.",
+    "minimum_fixture": "Assets with duplicate names, uncertain types, and missing owners.",
+    "slug": "skl-009-taxonomy-and-metadata-tagging",
+    "path": "skills/skl-009-taxonomy-and-metadata-tagging/SKILL.md",
+    "category": "Retrieval"
+  },
+  {
+    "skill_id": "SKL-010",
+    "name": "Version, Lineage & Provenance Tracking",
+    "what_it_does": "Records source assets, transformations, prompts/workflows, contributors, tools, rights, and derivatives.",
+    "common_roles": "Creative, MLOps, scientific, data, audit roles.",
+    "minimum_fixture": "Derived artifact with a missing parent/source and expected block.",
+    "slug": "skl-010-version-lineage-and-provenance-tracking",
+    "path": "skills/skl-010-version-lineage-and-provenance-tracking/SKILL.md",
+    "category": "Retrieval"
+  },
+  {
+    "skill_id": "SKL-011",
+    "name": "Sensitive Data Detection & Redaction",
+    "what_it_does": "Identifies probable personal, confidential, or restricted data and produces minimized/redacted derivative views.",
+    "common_roles": "Support, HR, privacy, research, audit.",
+    "minimum_fixture": "Mixed PII/PHI/confidential sample with permitted-role context.",
+    "slug": "skl-011-sensitive-data-detection-and-redaction",
+    "path": "skills/skl-011-sensitive-data-detection-and-redaction/SKILL.md",
+    "category": "Safety"
+  },
+  {
+    "skill_id": "SKL-012",
+    "name": "Risk Classification & Escalation",
+    "what_it_does": "Assigns risk tier based on defined policy signals and routes high/restricted situations to accountable humans.",
+    "common_roles": "All high-consequence roles, triage, compliance.",
+    "minimum_fixture": "Safety, financial, legal, privacy, and reputation trigger set.",
+    "slug": "skl-012-risk-classification-and-escalation",
+    "path": "skills/skl-012-risk-classification-and-escalation/SKILL.md",
+    "category": "Safety"
+  },
+  {
+    "skill_id": "SKL-013",
+    "name": "Requirements & Acceptance-Criteria Authoring",
+    "what_it_does": "Converts approved outcomes into testable, observable requirements, constraints, and acceptance conditions.",
+    "common_roles": "Product, engineering, QA, procurement.",
+    "minimum_fixture": "Vague requirement that must become measurable criteria.",
+    "slug": "skl-013-requirements-and-acceptance-criteria-authoring",
+    "path": "skills/skl-013-requirements-and-acceptance-criteria-authoring/SKILL.md",
+    "category": "Creation"
+  },
+  {
+    "skill_id": "SKL-014",
+    "name": "Process Mapping & SOP Authoring",
+    "what_it_does": "Maps inputs, decisions, controls, roles, steps, exceptions, and measurable outcomes.",
+    "common_roles": "Operations, quality, learning, project controls.",
+    "minimum_fixture": "Process with undefined owner and recovery path.",
+    "slug": "skl-014-process-mapping-and-sop-authoring",
+    "path": "skills/skl-014-process-mapping-and-sop-authoring/SKILL.md",
+    "category": "Creation"
+  },
+  {
+    "skill_id": "SKL-015",
+    "name": "Option & Trade-off Analysis",
+    "what_it_does": "Compares alternatives against explicit criteria, uncertainty, cost, risk, reversibility, and constraints.",
+    "common_roles": "Architecture, strategy, sourcing, planning.",
+    "minimum_fixture": "Two plausible options with noncomparable benefits and risks.",
+    "slug": "skl-015-option-and-trade-off-analysis",
+    "path": "skills/skl-015-option-and-trade-off-analysis/SKILL.md",
+    "category": "Analysis"
+  },
+  {
+    "skill_id": "SKL-016",
+    "name": "Qualitative Research Coding",
+    "what_it_does": "Organizes interviews, open-text feedback, and observation notes into auditable themes, quotes, contradictions, and evidence strength.",
+    "common_roles": "UX research, VOC, organizational learning.",
+    "minimum_fixture": "Small sample with conflicting participant statements.",
+    "slug": "skl-016-qualitative-research-coding",
+    "path": "skills/skl-016-qualitative-research-coding/SKILL.md",
+    "category": "Analysis"
+  },
+  {
+    "skill_id": "SKL-017",
+    "name": "Quantitative Analysis & Visualization",
+    "what_it_does": "Produces reproducible summaries, visualizations, segmentation, anomalies, and interpretation with stated limits.",
+    "common_roles": "Analytics, finance support, operations, sustainability.",
+    "minimum_fixture": "Dataset with nulls/outliers and metric-definition ambiguity.",
+    "slug": "skl-017-quantitative-analysis-and-visualization",
+    "path": "skills/skl-017-quantitative-analysis-and-visualization/SKILL.md",
+    "category": "Analysis"
+  },
+  {
+    "skill_id": "SKL-018",
+    "name": "Forecasting & Scenario Modeling",
+    "what_it_does": "Creates transparent base/upside/downside forecasts with explicit assumptions, sensitivity, and backtesting where applicable.",
+    "common_roles": "Planning, finance, supply chain, revenue.",
+    "minimum_fixture": "Sparse/noisy time series with a structural-break condition.",
+    "slug": "skl-018-forecasting-and-scenario-modeling",
+    "path": "skills/skl-018-forecasting-and-scenario-modeling/SKILL.md",
+    "category": "Analysis"
+  },
+  {
+    "skill_id": "SKL-019",
+    "name": "Experiment Design & Interpretation",
+    "what_it_does": "Defines hypothesis, sample, assignments, metrics, guardrails, stopping rules, and cautious readouts.",
+    "common_roles": "Product, marketing, learning, operations.",
+    "minimum_fixture": "Experiment with contaminated assignment or inadequate sample.",
+    "slug": "skl-019-experiment-design-and-interpretation",
+    "path": "skills/skl-019-experiment-design-and-interpretation/SKILL.md",
+    "category": "Analysis"
+  },
+  {
+    "skill_id": "SKL-020",
+    "name": "Natural-Language Drafting & Adaptation",
+    "what_it_does": "Drafts audience-appropriate content, documents, messages, and summaries from approved sources and tone constraints.",
+    "common_roles": "Copy, PR, support, product, learning.",
+    "minimum_fixture": "Source packet containing one prohibited/unverified claim.",
+    "slug": "skl-020-natural-language-drafting-and-adaptation",
+    "path": "skills/skl-020-natural-language-drafting-and-adaptation/SKILL.md",
+    "category": "Creation"
+  },
+  {
+    "skill_id": "SKL-021",
+    "name": "Tone, Brand & Canon Conformance",
+    "what_it_does": "Compares a draft to approved voice, personality, visual/sonic standards, and anti-examples; identifies drift.",
+    "common_roles": "Creative, communications, community, design.",
+    "minimum_fixture": "Draft containing subtle tone drift and false intimacy.",
+    "slug": "skl-021-tone-brand-and-canon-conformance",
+    "path": "skills/skl-021-tone-brand-and-canon-conformance/SKILL.md",
+    "category": "Evaluation"
+  },
+  {
+    "skill_id": "SKL-022",
+    "name": "Originality & Similarity Risk Review",
+    "what_it_does": "Finds suspicious semantic, phrasing, visual, or sonic similarity and imitation cues; provides evidence, not legal conclusions.",
+    "common_roles": "Lyric, content, creative, code review.",
+    "minimum_fixture": "Candidate deliberately close to a supplied reference.",
+    "slug": "skl-022-originality-and-similarity-risk-review",
+    "path": "skills/skl-022-originality-and-similarity-risk-review/SKILL.md",
+    "category": "Evaluation"
+  },
+  {
+    "skill_id": "SKL-023",
+    "name": "Accessibility & Plain-Language Review",
+    "what_it_does": "Checks readability, captions, contrast/design guidance, keyboard/flow considerations, alt-text, and inclusive language.",
+    "common_roles": "UX, education, marketing, public service.",
+    "minimum_fixture": "Dense document and inaccessible media example.",
+    "slug": "skl-023-accessibility-and-plain-language-review",
+    "path": "skills/skl-023-accessibility-and-plain-language-review/SKILL.md",
+    "category": "Evaluation"
+  },
+  {
+    "skill_id": "SKL-024",
+    "name": "Design & Visual Continuity Review",
+    "what_it_does": "Evaluates visual assets against approved references, layout systems, character rules, artifacts, safe areas, and format requirements.",
+    "common_roles": "Visual QA, brand, design systems.",
+    "minimum_fixture": "Reference pack plus candidate with continuity/artifact defects.",
+    "slug": "skl-024-design-and-visual-continuity-review",
+    "path": "skills/skl-024-design-and-visual-continuity-review/SKILL.md",
+    "category": "Evaluation"
+  },
+  {
+    "skill_id": "SKL-025",
+    "name": "Audio Continuity & Technical QA",
+    "what_it_does": "Tests speech/music continuity, pronunciation, artifacts, loudness, metadata, and technical readiness.",
+    "common_roles": "Voice governor, audio QA, mastering.",
+    "minimum_fixture": "Multiple audio candidates with voice/clip/label issues.",
+    "slug": "skl-025-audio-continuity-and-technical-qa",
+    "path": "skills/skl-025-audio-continuity-and-technical-qa/SKILL.md",
+    "category": "Evaluation"
+  },
+  {
+    "skill_id": "SKL-026",
+    "name": "Code Generation & Secure Implementation",
+    "what_it_does": "Creates maintainable code and tests within a bounded approved specification, including safe dependency and secret handling.",
+    "common_roles": "Software implementation, prototypes.",
+    "minimum_fixture": "Feature specification with malicious/user-supplied input tests.",
+    "slug": "skl-026-code-generation-and-secure-implementation",
+    "path": "skills/skl-026-code-generation-and-secure-implementation/SKILL.md",
+    "category": "Creation"
+  },
+  {
+    "skill_id": "SKL-027",
+    "name": "Code Review & Static-Analysis Interpretation",
+    "what_it_does": "Identifies correctness, maintainability, test, security, dependency, and policy risks in change sets.",
+    "common_roles": "Code review, security, QA.",
+    "minimum_fixture": "Diff with tests passing but an authorization flaw.",
+    "slug": "skl-027-code-review-and-static-analysis-interpretation",
+    "path": "skills/skl-027-code-review-and-static-analysis-interpretation/SKILL.md",
+    "category": "Evaluation"
+  },
+  {
+    "skill_id": "SKL-028",
+    "name": "Test Design & Defect Reproduction",
+    "what_it_does": "Creates positive, negative, boundary, regression, integration, and recovery tests; records reproducible evidence.",
+    "common_roles": "QA, testing, release readiness.",
+    "minimum_fixture": "Defect report missing environment/version information.",
+    "slug": "skl-028-test-design-and-defect-reproduction",
+    "path": "skills/skl-028-test-design-and-defect-reproduction/SKILL.md",
+    "category": "Evaluation"
+  },
+  {
+    "skill_id": "SKL-029",
+    "name": "Incident Triage & Runbook Retrieval",
+    "what_it_does": "Correlates approved telemetry, assesses scope/severity by policy, retrieves runbooks, and routes escalation.",
+    "common_roles": "SRE, security, support, field operations.",
+    "minimum_fixture": "Alert storm with one safety/security escalation indicator.",
+    "slug": "skl-029-incident-triage-and-runbook-retrieval",
+    "path": "skills/skl-029-incident-triage-and-runbook-retrieval/SKILL.md",
+    "category": "Evaluation"
+  },
+  {
+    "skill_id": "SKL-030",
+    "name": "Threat Modeling & Security Finding Triage",
+    "what_it_does": "Identifies attack surfaces, threat scenarios, compensating controls, evidence, and remediation priority.",
+    "common_roles": "Security, architecture, privacy.",
+    "minimum_fixture": "Design with incomplete trust-boundary information.",
+    "slug": "skl-030-threat-modeling-and-security-finding-triage",
+    "path": "skills/skl-030-threat-modeling-and-security-finding-triage/SKILL.md",
+    "category": "Evaluation"
+  },
+  {
+    "skill_id": "SKL-031",
+    "name": "Data Quality Profiling & Drift Detection",
+    "what_it_does": "Measures completeness, validity, freshness, duplicate rates, distributions, and schema drift without silently editing data.",
+    "common_roles": "Data quality, MLOps, analytics.",
+    "minimum_fixture": "Dataset with schema change and quality regression.",
+    "slug": "skl-031-data-quality-profiling-and-drift-detection",
+    "path": "skills/skl-031-data-quality-profiling-and-drift-detection/SKILL.md",
+    "category": "Analysis"
+  },
+  {
+    "skill_id": "SKL-032",
+    "name": "Model Evaluation & Red-Teaming",
+    "what_it_does": "Tests AI systems for task quality, grounding, leakage, unsafe behavior, bias risk, regressions, and refusal behavior.",
+    "common_roles": "AI evaluator, MLOps, product.",
+    "minimum_fixture": "Representative benchmark including prompt injection and unsafe requests.",
+    "slug": "skl-032-model-evaluation-and-red-teaming",
+    "path": "skills/skl-032-model-evaluation-and-red-teaming/SKILL.md",
+    "category": "Evaluation"
+  },
+  {
+    "skill_id": "SKL-033",
+    "name": "Contract & Obligation Extraction",
+    "what_it_does": "Structures clauses, dates, parties, obligations, limitations, and comparison flags without interpreting law.",
+    "common_roles": "Contract intelligence, rights, procurement.",
+    "minimum_fixture": "Contract with conflicting amendments and undefined terms.",
+    "slug": "skl-033-contract-and-obligation-extraction",
+    "path": "skills/skl-033-contract-and-obligation-extraction/SKILL.md",
+    "category": "Retrieval"
+  },
+  {
+    "skill_id": "SKL-034",
+    "name": "Reconciliation & Variance Analysis",
+    "what_it_does": "Matches approved records, detects discrepancies, prioritizes exceptions, and prepares support evidence.",
+    "common_roles": "Finance, revenue, royalty, operations.",
+    "minimum_fixture": "Reconciling sources with timing differences and an unmatched record.",
+    "slug": "skl-034-reconciliation-and-variance-analysis",
+    "path": "skills/skl-034-reconciliation-and-variance-analysis/SKILL.md",
+    "category": "Analysis"
+  },
+  {
+    "skill_id": "SKL-035",
+    "name": "Risk Register & Control Monitoring",
+    "what_it_does": "Maintains risk statements, owners, indicators, mitigations, evidence, and due dates; flags overdue/residual risk.",
+    "common_roles": "Risk, compliance, project controls.",
+    "minimum_fixture": "Risk register with missing owner and expired treatment date.",
+    "slug": "skl-035-risk-register-and-control-monitoring",
+    "path": "skills/skl-035-risk-register-and-control-monitoring/SKILL.md",
+    "category": "Safety"
+  },
+  {
+    "skill_id": "SKL-036",
+    "name": "Customer/Case Triage & Response Drafting",
+    "what_it_does": "Classifies requests, retrieves approved guidance, drafts noncommittal responses, and detects urgent/sensitive escalation.",
+    "common_roles": "Support, HR, casework, community.",
+    "minimum_fixture": "User asks for a restricted action or legal/medical/financial advice.",
+    "slug": "skl-036-customer-case-triage-and-response-drafting",
+    "path": "skills/skl-036-customer-case-triage-and-response-drafting/SKILL.md",
+    "category": "Evaluation"
+  },
+  {
+    "skill_id": "SKL-037",
+    "name": "Campaign & Content Planning",
+    "what_it_does": "Maps approved campaign objectives to audiences, content pillars, assets, sequencing, test hypotheses, and measurement.",
+    "common_roles": "Marketing, creative, advocacy, education.",
+    "minimum_fixture": "Campaign brief with insufficient assets and conflicting audience goals.",
+    "slug": "skl-037-campaign-and-content-planning",
+    "path": "skills/skl-037-campaign-and-content-planning/SKILL.md",
+    "category": "Creation"
+  },
+  {
+    "skill_id": "SKL-038",
+    "name": "Community Safety & Reputation Escalation",
+    "what_it_does": "Detects abuse, threats, self-harm indicators, harassment, vulnerable audiences, and reputation-sensitive conversations.",
+    "common_roles": "Community, support, social, HR.",
+    "minimum_fixture": "Conversation requiring immediate human response and non-engagement.",
+    "slug": "skl-038-community-safety-and-reputation-escalation",
+    "path": "skills/skl-038-community-safety-and-reputation-escalation/SKILL.md",
+    "category": "Safety"
+  },
+  {
+    "skill_id": "SKL-039",
+    "name": "Rights, License & Usage-Restriction Mapping",
+    "what_it_does": "Maps source/provider terms, permissions, expiry, territories, restrictions, and derivative eligibility.",
+    "common_roles": "Rights, licensing, release, procurement.",
+    "minimum_fixture": "Asset with unclear model terms and conflicting license evidence.",
+    "slug": "skl-039-rights-license-and-usage-restriction-mapping",
+    "path": "skills/skl-039-rights-license-and-usage-restriction-mapping/SKILL.md",
+    "category": "Retrieval"
+  },
+  {
+    "skill_id": "SKL-040",
+    "name": "Release/Delivery Package Validation",
+    "what_it_does": "Verifies final assets, metadata, format, checksums, approvals, evidence, and delivery status against a declared checklist.",
+    "common_roles": "Release packaging, DevOps, document control.",
+    "minimum_fixture": "Package with correct files but a missing approval and mismatch label.",
+    "slug": "skl-040-release-delivery-package-validation",
+    "path": "skills/skl-040-release-delivery-package-validation/SKILL.md",
+    "category": "Evaluation"
+  },
+  {
+    "skill_id": "SKL-041",
+    "name": "Scheduling, Capacity & Route Optimization",
+    "what_it_does": "Produces capacity-aware schedule options and collision/constraint warnings from authorized data.",
+    "common_roles": "Operations planning, field service, release calendar.",
+    "minimum_fixture": "Schedule with unavailable resource, SLA conflict, and travel constraint.",
+    "slug": "skl-041-scheduling-capacity-and-route-optimization",
+    "path": "skills/skl-041-scheduling-capacity-and-route-optimization/SKILL.md",
+    "category": "Operations"
+  },
+  {
+    "skill_id": "SKL-042",
+    "name": "Quality Incident & CAPA Support",
+    "what_it_does": "Organizes nonconformance evidence, root-cause hypotheses, containment drafts, corrective actions, and verification criteria.",
+    "common_roles": "Quality, operations, field, clinical quality.",
+    "minimum_fixture": "Quality event requiring human causal assessment and release authority.",
+    "slug": "skl-042-quality-incident-and-capa-support",
+    "path": "skills/skl-042-quality-incident-and-capa-support/SKILL.md",
+    "category": "Evaluation"
+  },
+  {
+    "skill_id": "SKL-043",
+    "name": "Localization & Cultural Adaptation",
+    "what_it_does": "Adapts content for language/region while preserving meaning, voice, rights, and local requirements; flags unverifiable claims.",
+    "common_roles": "Distribution, marketing, education, product.",
+    "minimum_fixture": "Content with cultural idiom, regulatory claim, and layout constraints.",
+    "slug": "skl-043-localization-and-cultural-adaptation",
+    "path": "skills/skl-043-localization-and-cultural-adaptation/SKILL.md",
+    "category": "Creation"
+  },
+  {
+    "skill_id": "SKL-044",
+    "name": "Meeting, Decision & Action Capture",
+    "what_it_does": "Converts conversations into clearly attributed decisions, action items, owners, deadlines, open questions, and risks.",
+    "common_roles": "Collaboration, project controls, customer success.",
+    "minimum_fixture": "Meeting containing ambiguous decision and conflicting owner assignments.",
+    "slug": "skl-044-meeting-decision-and-action-capture",
+    "path": "skills/skl-044-meeting-decision-and-action-capture/SKILL.md",
+    "category": "Operations"
+  },
+  {
+    "skill_id": "SKL-045",
+    "name": "Evaluation Scorecard & Gate Execution",
+    "what_it_does": "Applies rubric-based quality, policy, technical, and completeness checks to produce reproducible pass/fail evidence.",
+    "common_roles": "QA, governance, release, MLOps.",
+    "minimum_fixture": "Artifact that passes quality but fails provenance/approval evidence.",
+    "slug": "skl-045-evaluation-scorecard-and-gate-execution",
+    "path": "skills/skl-045-evaluation-scorecard-and-gate-execution/SKILL.md",
+    "category": "Evaluation"
+  }
+]

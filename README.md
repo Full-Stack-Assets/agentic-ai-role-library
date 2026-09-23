@@ -1,6 +1,6 @@
 # Agentic AI Role Library — Claude Code Plugins
 
-The **Agentic AI Role Library** (196 entries) packaged as installable [Claude Code](https://code.claude.com) plugins: bounded agent roles, each with an operating contract (mission, approved inputs, allowed work, required output schema, quality gate, handoff, stop conditions).
+The **Agentic AI Role Library** (202 entries) packaged as installable [Claude Code](https://code.claude.com) plugins: bounded agent roles, each with an operating contract (mission, approved inputs, allowed work, required output schema, quality gate, handoff, stop conditions).
 
 Nic speaks plain English; the library speaks IDs. The `role-library-router` plugin is the bridge: describe a task in natural language and it returns the ranked role+capability assemblies that apply.
 
@@ -29,7 +29,7 @@ Nic speaks plain English; the library speaks IDs. The `role-library-router` plug
 | `role-library-capabilities` | Reusable capabilities SKL-001–SKL-045 | 45 |
 | `role-library-integrations` | Integration definitions INT-001–INT-020 | 20 |
 
-**Total: 196 library entries + 1 router skill, 20 plugins.**
+**Total: 202 library entries + 1 router skill, 20 plugins.**
 
 Recommended starting install: the router plus whichever domain packs match your work. Role skills reference SKL/INT IDs as *suggested* capabilities and integrations; install `role-library-capabilities` alongside any domain pack to resolve them.
 

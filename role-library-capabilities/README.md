@@ -1,8 +1,8 @@
 # Role Library — Reusable Capabilities
 
-The 45 reusable capability skills (`SKL-001`–`SKL-045`) of the Agentic AI Role Library. These are narrow transformations (intake normalization, risk classification, experiment design, …) that role skills reference as suggested capabilities. Install alongside any domain pack; roles name the capabilities they suggest.
+The 51 reusable capability skills (`SKL-001`–`SKL-051`) of the Agentic AI Role Library. These are narrow transformations (intake normalization, risk classification, experiment design, …) that role skills reference as suggested capabilities. Install alongside any domain pack; roles name the capabilities they suggest.
 
-**Contents:** 45 skill(s).
+**Contents:** 51 skill(s).
 
 ## Skills
 
@@ -51,6 +51,12 @@ The 45 reusable capability skills (`SKL-001`–`SKL-045`) of the Agentic AI Role
 - `skl-043-localization-and-cultural-adaptation`
 - `skl-044-meeting-decision-and-action-capture`
 - `skl-045-evaluation-scorecard-and-gate-execution`
+- `skl-046-eval-integrity-audit`
+- `skl-047-measured-model-routing`
+- `skl-048-directive-interrogation-should-we`
+- `skl-049-honesty-stop-gate`
+- `skl-050-guard-target-correctness`
+- `skl-051-generate-review-fix-loop`
 
 ## Install
 

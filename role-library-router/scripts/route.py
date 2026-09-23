@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Natural-language router for the Agentic AI Role Library (196 entries).
+"""Natural-language router for the Agentic AI Role Library (202 entries).
 
 Usage: route.py "write a press release for the new album" [--top N]
 

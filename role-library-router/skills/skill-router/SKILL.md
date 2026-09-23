@@ -1,12 +1,12 @@
 ---
 name: skill-router
-description: "Use when a natural-language task needs to be mapped to the right role skills, reusable capabilities, and integration definitions from the Agentic AI Role Library (196 entries). Turns plain-English intent into role+capability assemblies so no one has to memorize ID abbreviations."
+description: "Use when a natural-language task needs to be mapped to the right role skills, reusable capabilities, and integration definitions from the Agentic AI Role Library (202 entries). Turns plain-English intent into role+capability assemblies so no one has to memorize ID abbreviations."
 ---
 
 # Skill Router (Natural-Language Activation)
 
 Maps a natural-language request to the role skills (`CMM-07`, `CMA-12`, ...),
-reusable capabilities (`SKL-001`..`SKL-045`), and integration definitions
+reusable capabilities (`SKL-001`..`SKL-051`), and integration definitions
 (`INT-001`..`INT-020`) of the Agentic AI Role Library. Works across all installed role-library plugins; the router needs no domain pack installed to suggest one.
 
 ## Overview

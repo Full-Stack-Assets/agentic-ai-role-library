@@ -17,11 +17,11 @@
     "role-library-people-learning": 6,
     "role-library-product-design": 7,
     "role-library-revenue-customer": 8,
-    "role-library-capabilities": 45,
+    "role-library-capabilities": 51,
     "role-library-integrations": 20,
     "role-library-router": 1
   },
-  "total_skills": 196,
+  "total_skills": 202,
   "router_skill": 1,
-  "library_entries": 196
+  "library_entries": 202
 }

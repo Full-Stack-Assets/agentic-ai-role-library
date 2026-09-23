@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "agentic-ai-role-library",
-  "description": "The Agentic AI Role Library (196 entries) as Claude Code plugins: 17 domain packs, 45 reusable capabilities, 20 integration definitions, and a natural-language router.",
+  "description": "The Agentic AI Role Library (202 entries) as Claude Code plugins: 17 domain packs, 51 reusable capabilities, 20 integration definitions, and a natural-language router.",
   "version": "0.1.0",
   "author": {
     "name": "FullStackAssets"

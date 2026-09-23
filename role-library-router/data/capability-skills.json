@@ -448,5 +448,65 @@
     "slug": "skl-045-evaluation-scorecard-and-gate-execution",
     "path": "skills/skl-045-evaluation-scorecard-and-gate-execution/SKILL.md",
     "category": "Evaluation"
+  },
+  {
+    "skill_id": "SKL-046",
+    "name": "Eval Integrity Audit",
+    "slug": "skl-046-eval-integrity-audit",
+    "what_it_does": "Audits a test, benchmark, or evaluation BEFORE trusting its result: verify against rendered/executed reality, audit the control hardest, anchor before the population, make the scorer ungameable, and prove a clean verdict can go red on a known positive.",
+    "common_roles": "QA, MLOps, AI evaluator, engineering.",
+    "minimum_fixture": "A passing test suite whose control was never eyeballed; expected audit to demand re-verification.",
+    "category": "Evaluation",
+    "path": "skills/skl-046-eval-integrity-audit/SKILL.md"
+  },
+  {
+    "skill_id": "SKL-047",
+    "name": "Measured Model Routing",
+    "slug": "skl-047-measured-model-routing",
+    "what_it_does": "Routes each task to the cheapest model that can actually do it from a living, evidence-cited routing table: project gates first, guardrails override the table, pre-flight the target capability, and keep every row's evidence current.",
+    "common_roles": "Orchestrator, MLOps, AI evaluator.",
+    "minimum_fixture": "A dispatch request with a stale table row; expected route to the Alt or a surfaced gap.",
+    "category": "Operations",
+    "path": "skills/skl-047-measured-model-routing/SKILL.md"
+  },
+  {
+    "skill_id": "SKL-048",
+    "name": "Directive Interrogation (\"Should We\")",
+    "slug": "skl-048-directive-interrogation-should-we",
+    "what_it_does": "Interrogates an operator directive before executing it with five fixed questions (premise true? already done? right unit of work? what breaks if we don't? what would make this wrong?) \u2014 the verdict can come back NO; output is explain + action in the same turn, never a stall.",
+    "common_roles": "Orchestrator, automation, release, engineering.",
+    "minimum_fixture": "A directive whose premise is false on inspection; expected a 'don't do it' verdict phrased as a question.",
+    "category": "Safety",
+    "path": "skills/skl-048-directive-interrogation-should-we/SKILL.md"
+  },
+  {
+    "skill_id": "SKL-049",
+    "name": "Honesty Stop Gate",
+    "slug": "skl-049-honesty-stop-gate",
+    "what_it_does": "Wires an honesty stop gate into an agent stack: a turn-end hook that blocks turns asserting live state never measured. Verifies every probe command exists, asks about unknowns, keeps private files untouched, and proves the gate can fail end-to-end.",
+    "common_roles": "Orchestrator, automation, MLOps, engineering.",
+    "minimum_fixture": "A transcript claiming a background job is running with no probe run; expected a block decision.",
+    "category": "Safety",
+    "path": "skills/skl-049-honesty-stop-gate/SKILL.md"
+  },
+  {
+    "skill_id": "SKL-050",
+    "name": "Guard Target-Correctness",
+    "slug": "skl-050-guard-target-correctness",
+    "what_it_does": "Checks that a guard watches the RIGHT predicate, not merely that it can fail: enumerates the concept's equivalence class (falsy siblings, aliases, absent-vs-empty), tabulates should-trip vs does-trip, and measures breadth over a pinned corpus in both directions (too narrow, too wide).",
+    "common_roles": "QA, engineering, governance, MLOps.",
+    "minimum_fixture": "A guard whose predicate misses a falsy sibling of its concept; expected a finding in the equivalence table.",
+    "category": "Evaluation",
+    "path": "skills/skl-050-guard-target-correctness/SKILL.md"
+  },
+  {
+    "skill_id": "SKL-051",
+    "name": "Generate \u2192 Review \u2192 Fix Loop",
+    "slug": "skl-051-generate-review-fix-loop",
+    "what_it_does": "Improves a non-trivial code change through three distinct stages: a coding model drafts, an independent audit model reviews against the contract (findings labeled CONFIRMED or SUSPECTED), and the generator revises \u2014 the final revision, not a draft, is tested.",
+    "common_roles": "Engineering, MLOps, QA.",
+    "minimum_fixture": "A non-trivial change with one suspected-only finding; expected the finding recorded, not applied.",
+    "category": "Evaluation",
+    "path": "skills/skl-051-generate-review-fix-loop/SKILL.md"
   }
 ]
